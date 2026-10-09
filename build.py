@@ -68,6 +68,12 @@ def main():
                       r"\.(?:\s?[A-Z]\.)*(?:[A-Z](?![a-z.]))?")
                 member_patterns.append((re.compile(rx), base, is_pi))
 
+    for n in site.get("other_lab_authors", []) or []:
+        last, ini = [x.strip() for x in n.split(",", 1)]
+        rx = (r"(?<![\w-])" + re.escape(last) + r",\s?" + re.escape(ini.strip()[0]) +
+              r"\.(?:\s?[A-Z]\.)*(?:[A-Z](?![a-z.]))?")
+        member_patterns.append((re.compile(rx), n, False))
+
     def bold_lab(text):
         t = str(escape(text))
         for rx, full, is_pi in member_patterns:

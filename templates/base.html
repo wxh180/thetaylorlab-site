@@ -20,7 +20,10 @@
   <header class="site-header">
     <div class="wrap header-inner">
       <a class="brand" href="{{ root or './' }}" aria-label="{{ site.title }} home">
-        <img src="{{ root }}assets/img/brand/logo.png" alt="Taylor Lab logo" width="88" height="60">
+        <picture>
+          <source type="image/webp" srcset="{{ root }}assets/img/brand/logo-animated.webp">
+          <img src="{{ root }}assets/img/brand/logo-animated.gif" alt="Taylor Lab logo" width="363" height="128">
+        </picture>
         <span class="brand-text"><span class="brand-name">The Taylor Lab</span><span class="brand-sub">Pharmacology · Case Western Reserve University</span></span>
       </a>
       <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav"><span></span><span></span><span></span><span class="sr">Menu</span></button>

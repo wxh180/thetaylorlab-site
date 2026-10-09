@@ -19,3 +19,7 @@ nav:
   - {label: Publications, path: publications/}
   - {label: Gallery, path: lab-events/}
   - {label: Contact Us, path: contact-us/}
+# Former lab members who appear on papers but don't have a card on the People page.
+# They are highlighted on the Publications page like everyone in people.yml.
+other_lab_authors:
+  - "Mullins, M.R."

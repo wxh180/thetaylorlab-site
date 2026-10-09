@@ -41,7 +41,9 @@ address { font-style: normal; }
 .site-header { position: sticky; top: 0; z-index: 50; background: rgba(255,255,255,.94); backdrop-filter: saturate(1.4) blur(8px); border-bottom: 1px solid var(--line); }
 .header-inner { display: flex; align-items: center; justify-content: space-between; gap: 16px; min-height: 72px; }
 .brand { display: flex; align-items: center; gap: 12px; text-decoration: none; color: var(--ink); }
-.brand img { width: auto; height: 52px; }
+.brand picture { display: block; line-height: 0; }
+.brand img { width: auto; height: 60px; }
+@media (max-width: 420px) { .brand img { height: 42px; } .brand-name { font-size: 1rem; } }
 .brand-text { display: flex; flex-direction: column; line-height: 1.2; }
 .brand-name { font-family: var(--serif); font-weight: 700; font-size: 1.15rem; color: var(--navy); }
 .brand-sub { font-size: .75rem; color: var(--muted); }
