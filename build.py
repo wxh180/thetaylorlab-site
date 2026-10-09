@@ -51,11 +51,28 @@ def main():
     env = Environment(loader=FileSystemLoader(os.path.join(ROOT, "templates")),
                       autoescape=select_autoescape(["html"]), trim_blocks=True, lstrip_blocks=True)
     env.filters["paragraphs"] = paragraphs
+    # Highlight lab members in author lists. Each person is matched as "Lastname, F." (plus any
+    # extra initials); add `pub_names: ["Other, A."]` in people.yml for maiden names or variants.
+    from markupsafe import Markup, escape
+    member_patterns = []
+    for g in people:
+        for m in g["members"]:
+            base = re.sub(r",.*$", "", m["name"]).strip()          # drop ", Ph.D." etc.
+            parts = base.split()
+            names = [f"{parts[-1]}, {parts[0][0]}."] + list(m.get("pub_names", []))
+            is_pi = g["status"] == "current" and g is people[0] and m is g["members"][0]
+            for n in names:
+                last, ini = [x.strip() for x in n.split(",", 1)]
+                ini = ini.strip()[0]            # match on the first initial; extra initials are optional
+                rx = (r"(?<![\w-])" + re.escape(last) + r",\s?" + re.escape(ini) +
+                      r"\.(?:\s?[A-Z]\.)*(?:[A-Z](?![a-z.]))?")
+                member_patterns.append((re.compile(rx), base, is_pi))
+
     def bold_lab(text):
-        """Bold the PI's name in an author list."""
-        from markupsafe import Markup, escape
         t = str(escape(text))
-        t = re.sub(r"(Taylor, D\. ?J\.?|Taylor, D\.(?= |,)|Taylor, D\.J)", r"<strong>\1</strong>", t)
+        for rx, full, is_pi in member_patterns:
+            cls = "lab-pi" if is_pi else "lab-member"
+            t = rx.sub(lambda mt: f'<mark class="{cls}" title="{full} (Taylor Lab)">{mt.group(0)}</mark>', t)
         return Markup(t)
     env.filters["bold_lab"] = bold_lab
     env.filters["slug"] = lambda s: re.sub(r"[^a-z0-9]+", "-", str(s).lower()).strip("-")

@@ -1,6 +1,7 @@
 # Lab members. status: current or alumni. To move someone to alumni, cut their entry and paste it under an alumni group.
 # Photos go in assets/img/people/ (square-ish, ~600px wide). No photo? use assets/img/people/placeholder.webp
 # Optional per person: linkedin: https://www.linkedin.com/in/...
+# Optional: pub_names: ["Maiden, A."] - other names used on papers (each person is auto-matched as "Lastname, F." on the Publications page)
 
 - status: current
   title: Principal Investigator & Faculty
@@ -75,6 +76,8 @@
     role: Graduate Student
     photo: assets/img/people/tawna-mangosh.webp
     bio: Tawna received her Doctor of Pharmacy degree from the University of Findlay College of Pharmacy. During this time, she spent six years in the laboratory of Dr. Ryan Schneider in the College of Pharmacy focusing on cancer pharmacology-based research. During Tawna’s undergraduate pharmacy research experience, she made significant contributions to studies aimed at identifying the mechanism by which non-steroidal anti-inflammatory agents exert their anti-cancer effects. In addition to continuing her undergraduate research, Tawna’s pharmacy graduate research involvement included two separate drug screening and validation studies with a library of compounds designed as either sigma-2 receptor agonists or autophagy inhibitors with the goal of eliciting cancer cell cytotoxicity. In addition to research-based cancer pharmacology training, Tawna received extensive training in pathophysiology, pharmacology, medicinal chemistry, and pharmacotherapy of human diseases while earning her Doctor of Pharmacy.
+    pub_names:
+    - Whited, T.L.
   - name: Wilnelly Hernandez-Sanchez, Ph.D.
     role: Graduate Student
     photo: assets/img/people/wilnelly-hernandez-sanchez.webp

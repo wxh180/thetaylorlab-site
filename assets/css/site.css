@@ -233,3 +233,7 @@ details p { font-size: .92rem; color: var(--ink-2); margin-top: .8em; }
 
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } * { transition: none !important; } }
 .person-links { margin: -4px 0 8px; font-size: .85rem; font-weight: 600; }
+/* Lab members highlighted in author lists */
+mark.lab-member, mark.lab-pi { background: linear-gradient(transparent 58%, rgba(227,169,25,.38) 58%); color: var(--ink); font-weight: 600; padding: 0 1px; border-radius: 2px; }
+mark.lab-pi { color: var(--navy); font-weight: 700; }
+.lab-key { font-size: .88rem; color: var(--muted); margin: 4px 0 0; }
