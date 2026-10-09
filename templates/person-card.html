@@ -3,6 +3,7 @@
   <div class="person-body">
     <h3>{{ m.name }}</h3>
     <p class="role">{{ m.role }}</p>
+    {% if m.linkedin %}<p class="person-links"><a href="{{ m.linkedin }}" target="_blank" rel="noopener">LinkedIn</a></p>{% endif %}
     {% if m.bio %}
     <details>
       <summary>Read bio</summary>

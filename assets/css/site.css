@@ -150,6 +150,7 @@ address { font-style: normal; }
 .people-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 20px; align-items: start; }
 .person { background: #fff; border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; }
 .person img { width: 100%; aspect-ratio: 1 / 1; object-fit: cover; object-position: center 25%; background: var(--tint); }
+.person img[src$="placeholder.webp"] { object-position: center; }
 .person-body { padding: 16px 18px 18px; }
 .person h3 { margin-bottom: 2px; font-size: 1.05rem; }
 .person .role { margin-bottom: 8px; }
@@ -231,3 +232,4 @@ details p { font-size: .92rem; color: var(--ink-2); margin-top: .8em; }
 .footer-bottom { border-top: 1px solid rgba(255,255,255,.12); margin-top: 36px; padding-top: 18px; font-size: .85rem; color: #8d9bbb; }
 
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } * { transition: none !important; } }
+.person-links { margin: -4px 0 8px; font-size: .85rem; font-weight: 600; }

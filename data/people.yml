@@ -1,5 +1,6 @@
 # Lab members. status: current or alumni. To move someone to alumni, cut their entry and paste it under an alumni group.
-# Photos go in assets/img/people/ (square-ish, ~600px wide).
+# Photos go in assets/img/people/ (square-ish, ~600px wide). No photo? use assets/img/people/placeholder.webp
+# Optional per person: linkedin: https://www.linkedin.com/in/...
 
 - status: current
   title: Principal Investigator & Faculty
@@ -42,6 +43,24 @@
     role: Ph.D.
     photo: assets/img/people/sagar-regmi.webp
     bio: Sagar holds an undergraduate degree and M.Sc. degree from University of Pune, Pune, India. After receiving his M.Sc. degree, he worked on a summer project that focused to define the structure and function of a G-quadruplex in the long terminal repeat of the proviral HIV-1 genome in Nanyang Technological University (NTU), Singapore. Then, he did his Ph.D. in Chemical and Biomedical Engineering under the supervision of Assoc. Prof. Sierin Lim and Prof. Kathy Qian Luo from School of Chemical and Biomedical Engineering, NTU, Singapore. As a graduate student, he focused on understanding the effects of shear stress and ROS-generating drugs on circulating tumor cells. In this project, he uncovered the role of exercise induced shear effect on circulating tumor cells. In another study, he investigated the effect of known chemotherapy drugs for their effects on circulating tumor cells. After his Ph.D. from NTU, he worked as a Research Staff at the Faculty of Health Science, University of Macau, China where he focussed on the applications of microfluidics that could advance the field of oncology. He is currently working as a Postdoctoral Scholar at Prof. Derek J. Taylor Laboratory at Department of Pharmacology, School of Medicine, Case Western Reserve University, Cleveland, Ohio, USA. He is working on the enzyme 15-prostaglandin dehydrogenase (15-PGDH) with a strategy to trap prostaglandin substrates and define the structure of 15-PGDH with diverse prostaglandin substrates (PGD2 and PGE2) using cryogenic electron microscopy and identify the molecular interactions that govern binding and specificity of the enzyme. Furthermore, he is focusing to identify the role of the C-terminal tail in the regulation of the activity of 15-PGDH with prostaglandin substrate.
+  - name: Malligarjunan Rajavel, Ph.D.
+    role: Postdoctoral Research Fellow
+    photo: assets/img/people/malligarjunan-rajavel.webp
+    linkedin: https://www.linkedin.com/in/m-rajavel/
+    bio: 'Malligarjunan received his M.Sc. in Physics from The American College and carried out his doctoral research in structural biology at the Molecular Biophysics Unit of the Indian Institute of Science (IISc), where he studied protein biochemistry, natural peptide biosynthesis mechanisms and multi-drug resistance. He joined the Taylor Lab as a Postdoctoral Research Fellow in 2011, where his work focused on telomere biology, protein–protein and protein–DNA interactions within telomere complexes such as POT1-TPP1, the structural characterization of pathogenic cancer mutations, and hydrogen-deuterium exchange mass spectrometry.
+
+
+      After his postdoctoral training, he continued at Case Western Reserve University as a Research Associate, using high-throughput screening and assay development to search for protein–protein interaction inhibitors targeting a bacterial penicillin-binding protein and its regulator. He then moved to industry as a Scientist II in Protein & Antigen Product Development at BioLegend in San Diego, California, coordinating recombinant protein and antigen production.'
+  - name: Magdalena Malgowska
+    role: Postdoctoral Scholar
+    photo: assets/img/people/magdalena-malgowska.webp
+    linkedin: https://www.linkedin.com/in/magdalena-malgowska-46694a66/
+    bio: As a postdoctoral scholar in the Taylor Lab, Magdalena studied how the telomere end-binding POT1-TPP1 complex interacts with G-quadruplex DNA structures at chromosome ends, contributing to the study “Active and passive destabilization of G-quadruplex DNA by the telomere POT1-TPP1 complex” (Journal of Molecular Biology, 2021). She is affiliated with the Institute of Bioorganic Chemistry of the Polish Academy of Sciences and is now a Project Scientist at the University of California, Irvine.
+  - name: Xuehuo Zeng
+    role: Postdoctoral Scholar
+    photo: assets/img/people/placeholder.webp
+    linkedin: https://www.linkedin.com/in/xuehuo-zeng-30a36435/
+    bio: As a postdoctoral scholar in the Taylor Lab, Xuehuo helped develop the lab’s “Trojan Horse” strategy for targeting telomerase in cancer, leading the study “Induction of cancer cell death by telomerase-mediated incorporation of a nucleoside analog into telomeric DNA” (Cell Reports, 2018). He is now a Research Associate at Case Western Reserve University.
 - status: alumni
   title: Graduate Students
   members:
@@ -60,6 +79,14 @@
     role: Graduate Student
     photo: assets/img/people/wilnelly-hernandez-sanchez.webp
     bio: Wilnelly received her bachelor’s degree from the University of Puerto Rico, Mayaguez, in Industrial Biotechnology. As an undergraduate, she spent two years doing research with Dr. Elsie Pares-Matos, studying gene regulation and analyzing the promoter regions of Nuclear Factor for Interleukin 6 (NF-IL6). After completion of her bachelor degree, she was accepted in the Postbaccalaureate Research Education Program (PREP) at Case Western Reserve University School of Medicine in June 2012. As part of the PREP program, she worked full-time in a research lab under Dr. Mark Jackson supervision in the Cancer Biology department at CWRU. Her project focused on studying protein interactions between two newly discovered oncogenes FAM83B and FAM83A. Upon acceptance into graduate school at Case Western, she joined the lab of Dr. Derek Taylor, in the Pharmacology Department. During her graduate career, Wilnelly had the opportunity to study a novel telomerase inhibitor and the kinetics consequences of nucleotides concentration over telomerase catalytic activity.
+  - name: Harry Scott, Ph.D.
+    role: Graduate Student
+    photo: assets/img/people/harry-scott.webp
+    linkedin: https://www.linkedin.com/in/harry-scott-iii/
+    bio: 'Harry received his B.S. in Biochemistry from Indiana University–Purdue University Indianapolis in 2012 and his Ph.D. in Pharmacology from Case Western Reserve University in 2018. In the Taylor Lab, his work focused on determining the three-dimensional structures of protein complexes using cryo-electron microscopy, beginning with telomere-binding complexes such as the Schizosaccharomyces pombe Ccq1-Tpz1-Poz1 shelterin complex and extending to the anthrax protective antigen pore and the Acinetobacter baumannii AdeB multidrug efflux pump. He received the Best Member Oral Presentation award from the Microscopy Society of Northeast Ohio and an Oral Presentation Award from the CWRU Department of Pharmacology, and served as Vice President of the Graduate Student Organization.
+
+
+      After graduate school, Harry joined Oregon Health & Science University as a Research Associate and then Senior Research Associate, operating Titan Krios and Arctica transmission electron microscopes to support structural biology labs across the country. He is now a Scientific Content Manager at Aptitude Health in Portland, Oregon.'
   - name: Mengyuan Xu, Ph.D.
     role: Graduate Student
     photo: assets/img/people/mengyuan-xu.webp
