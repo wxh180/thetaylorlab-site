@@ -52,7 +52,6 @@
         <div class="footer-h">Explore</div>
         <ul class="footer-links">
           {% for item in site.nav[1:] %}<li><a href="{{ root }}{{ item.path }}">{{ item.label }}</a></li>{% endfor %}
-          <li><a href="{{ site.twitter }}" rel="noopener" target="_blank">Follow {{ site.twitter_handle }} on X</a></li>
           <li><a href="{{ site.members_app }}">Lab members: inventory &amp; orders</a></li>
         </ul>
       </div>

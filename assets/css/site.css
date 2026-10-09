@@ -72,8 +72,6 @@ address { font-style: normal; }
 .btn-primary:hover { background: var(--navy-700); color: #fff; }
 .btn-ghost { border-color: var(--line); color: var(--navy); background: #fff; }
 .btn-ghost:hover { border-color: var(--navy); }
-.btn-dark { background: #0f1419; color: #fff; }
-.btn-dark:hover { background: #000; color: #fff; }
 .btn-small { padding: 6px 12px; font-size: .85rem; border-radius: 8px; background: var(--navy-50); color: var(--navy); }
 .btn-small:hover { background: var(--navy); color: #fff; }
 .btn-row { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 8px; }
@@ -114,13 +112,6 @@ address { font-style: normal; }
 .pub-card h3 { font-size: 1.05rem; margin: 0; }
 .pub-card h3 a { text-decoration: none; color: var(--ink); }
 .pub-card h3 a:hover { color: var(--navy); text-decoration: underline; }
-.split { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
-@media (max-width: 760px) { .split { grid-template-columns: 1fr; } }
-.callout { padding: 32px; border-radius: var(--radius); background: var(--navy); color: #dfe7f7; }
-.callout h2 { color: #fff; }
-.callout .btn-primary { background: #fff; color: var(--navy); }
-.callout-x { background: var(--tint); color: var(--ink-2); border: 1px solid var(--line); }
-.callout-x h2 { color: var(--ink); }
 
 /* Research */
 .subnav { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 20px; }

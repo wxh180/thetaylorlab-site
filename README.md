@@ -12,7 +12,7 @@ You can edit everything in the GitHub website: open a file, click the ✏️ pen
 | Add a publication | `data/publications.yml`: copy an existing entry, paste it at the top, and edit it |
 | Add, edit or move a lab member to alumni | `data/people.yml` |
 | Gallery photos and captions | `data/gallery.yml` |
-| Address, X/Twitter link, menu | `data/site.yml` |
+| Address, menu | `data/site.yml` |
 | Research text | `templates/research.html` |
 | Home page text | `templates/home.html` |
 
