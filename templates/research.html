@@ -1,0 +1,75 @@
+{% extends "base.html" %}
+{% block description %}Research in the Taylor Lab: PP2A phosphatases, telomeres and telomerase, and structure-guided drug design.{% endblock %}
+{% block content %}
+<section class="page-hero">
+  <div class="wrap">
+    <p class="eyebrow">Research</p>
+    <h1>Our Research</h1>
+    <p class="lead">A primary focus of the Taylor lab is to integrate molecular structure with functional phenotypes to understand fundamental biological processes. An overarching goal is to use the detailed information derived from basic science to develop pharmacological agents that are designed to manipulate these pathways in disease states. The structures we determine are used to guide the development of chemotherapeutic agents.</p>
+    <p>Our current work focuses on the PP2A family of phosphatases as we seek to understand how protein biogenesis and complex assembly affects substrate specificity and signaling networks. We are also interested in understanding how telomere end-binding proteins interact exclusively with telomere DNA to prevent illicit induction of the DNA damage response and in regulating telomerase. Using the mechanistic insight gained, we have developed a new strategy for targeting telomerase and have identified and designed small molecules that promote telomere dysfunction in telomerase reactivated cancer cells.</p>
+    <nav class="subnav" aria-label="Research areas">
+      <a href="#pp2a">Protein Phosphatase 2A</a>
+      <a href="#telomeres">Telomeres and Telomerase</a>
+      <a href="#drug-design">Drug Design</a>
+    </nav>
+  </div>
+</section>
+
+<section class="section research-block" id="pp2a">
+  <div class="wrap media-split">
+    <div>
+      <p class="eyebrow">01</p>
+      <h2>Protein Phosphatase 2A</h2>
+      <p>Post-translational modifications (PTMs) are molecular switches that define cellular protein activity, localization, and turnover to help regulate the dynamic events that control diverse and fundamental biological functions in all living organisms. As the most common PTM, phosphorylation is reversibly added by protein kinases and removed by protein phosphatases. A major source of serine/threonine phosphatase activity in the cell comes from the Protein Phosphatase 2A (PP2A) family whose function is regulated through biogenesis, assembly and PTMs.</p>
+      <p>PP2A is a multi-subunit phosphatase composed of a scaffolding A, regulatory B, and a catalytic C subunit. The ability of PP2A to dephosphorylate a vast repertoire of protein substrates is attributed to more than 40-specificity determining regulatory B subunits that compete for assembly of PP2A heterotrimers. The mechanisms dictating PP2A biogenesis, regeneration, and regulation of its catalytic activity are complex and involve several specific regulators.</p>
+    </div>
+    <figure class="media-card">
+      <video autoplay muted loop playsinline preload="metadata" poster="{{ root }}assets/media/pp2a-poster.webp" aria-label="Animated PP2A structure">
+        <source src="{{ root }}assets/media/pp2a.mp4" type="video/mp4">
+        <source src="{{ root }}assets/media/pp2a.webm" type="video/webm">
+      </video>
+      <figcaption>PP2A structure (animation).</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="section section-tint research-block" id="telomeres">
+  <div class="wrap">
+    <div class="narrow">
+      <p class="eyebrow">02</p>
+      <h2>Telomeres and Telomerase</h2>
+      <p>All human cells possess their own pre-determined lifespan. Without this ability, cells would accumulate damage over time that would eventually overwhelm their innate repair systems, resulting in persistent and potentially disease-causing mutations. The lifespan of the cell is imposed by telomeres, the caps of linear chromosomes. Telomeres shorten progressively during iterative rounds of cell division; thus, telomere length serves as an intrinsic metric of cellular age.</p>
+      <p>In addition, because telomeres do not contain coding DNA, they safeguard against the loss of genetic information that could occur as a natural consequence of asymmetric DNA replication (the so-called “end-replication problem”). These dual functions of telomeres make them indispensable for maintaining genome integrity and ensuring tightly regulated molecular, cellular, and organismal turnover.</p>
+    </div>
+    <h3 class="sub-h">Techniques we use</h3>
+    <div class="tech-grid" data-lightbox-group>
+      {% for f, label in [('xray','X-ray Crystallography'),('ns-em','Negative Stain EM'),('cx-ms','Chemical Cross-linking Mass Spectrometry'),('hdx-ms','Hydrogen/Deuterium Exchange Mass Spectrometry (HDX-MS)'),('spr','Surface Plasmon Resonance (SPR)'),('tr-cd','Time-resolved Circular Dichroism Spectroscopy'),('gel-shift','Gel-shift Binding Assay'),('telomerase-assay','Telomerase Extension Assay'),('confocal','Confocal Fluorescence Microscopy')] %}
+      <figure class="tech">
+        <button class="zoom" data-full="{{ root }}assets/img/research/{{ f }}.webp" data-caption="{{ label }}">
+          <img src="{{ root }}assets/img/research/{{ f }}.webp" alt="{{ label }} example data" loading="lazy">
+        </button>
+        <figcaption>{{ label }}</figcaption>
+      </figure>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section research-block" id="drug-design">
+  <div class="wrap media-split">
+    <div>
+      <p class="eyebrow">03</p>
+      <h2>Drug Design</h2>
+      <p>In addition to a basic science approach to understanding biological processes, we use the molecular insight to design new therapeutic strategies for treating human diseases including cancer. Our work on telomerase has identified a new strategy for targeting cancer. For example, we have identified a number of pyrimidine nucleotide analogs that are preferentially inserted by telomerase into the telomeres of cancer cells. This “Trojan Horse” strategy exploits the elevated activity of telomerase in cancer cells that is lacking in healthy cells. We are investigating how telomerase is upregulated in most cancers and, conversely, how a smaller proportion of cells use a different strategy called ALT (alternative lengthening of telomeres) to maintain telomere length and, thus, immortality. Building on this foundational knowledge, we hope to define signaling pathways that contribute to anti-telomerase therapies or to use ALT and telomerase expression strategies for predicting therapies for treating different cancer types.</p>
+      <p>The Taylor Lab uses structural biology as a primary tool to understand drug-protein interactions and for designing more potent and selective analogs. We have used structural biology combined with kinetic analyses to identify and develop a set of nucleotide analogs that inhibit telomerase activity. Moreover, we have used structural biology to understand and to develop a first in-class series of small molecule agonists that stabilize specific PP2A heterotrimeric complexes. Our work has shown that the prototype molecule of this type of compounds, termed SMAPs (small molecule activators of PP2A) binds to a pocket that is unique to the B56a-containing class of PP2A heterotrimers. We have also leveraged advancements in cryo-EM to establish a streamlined pipeline for resolving small molecules in complex with a 58 kDa 15-PGDH protein, dissecting the molecular underpinnings of high-affinity small molecule inhibitors. Our research aims to push the frontiers of molecular biology by integrating rigorous methods with interdisciplinary approaches.</p>
+    </div>
+    <figure class="media-card">
+      <video autoplay muted loop playsinline preload="metadata" poster="{{ root }}assets/media/15pgdh-poster.webp" aria-label="Cryo-EM structure of 15-PGDH with a small molecule inhibitor">
+        <source src="{{ root }}assets/media/15pgdh.mp4" type="video/mp4">
+        <source src="{{ root }}assets/media/15pgdh.webm" type="video/webm">
+      </video>
+      <figcaption>Cryo-EM structures of human 15-PGDH with drug.</figcaption>
+    </figure>
+  </div>
+</section>
+{% endblock %}

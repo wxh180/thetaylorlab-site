@@ -1,0 +1,302 @@
+# Taylor Lab publications — newest first.
+# To add a paper: copy an entry, paste it at the top of its year, and edit.
+# Fields: year, title, citation, abstract (optional), link (PubMed URL), image (optional), highlights (optional list)
+# Entries without a title are shown as a single citation line.
+
+- year: 2026
+  title: Multivalent nanobodies for potent and broad neutralization of Staphylococcus aureus toxins
+  citation: Kim, Y.J.J., Walton, N.R., Huang, W., Lee, M., Xiang, Y., Sang, Z., Sussman, C., Moore, S.K., Taylor, D.J., Chen, K., Hook, J.L., McCormick, J.K. and Shi, Y. 2026. Nature Communications, 17(1), p.4456.
+  abstract: Staphylococcus aureus is a leading cause of lethal bacteremia and pneumonia, which are driven by potent virulence factors such as T-cell superantigens and alpha hemolysin. S. aureus has among the highest rates of antibiotic resistance, yet no vaccines or alternative therapies are available. Here, we developed a repertoire of potent, high-affinity nanobodies (Nbs) targeting key toxins in S. aureus infection, including Hla and superantigens SEB, SEC, and TSST-1. Comprehensive cryo-EM and AlphaFold3 analyses of these Nbs, which were elicited with clinical cocktail vaccines, revealed diverse neutralizing epitopes and mechanisms that provide insights for immunotherapy and vaccine strategies. Guided by these findings, we engineered stable, multivalent, and multifunctional Nb constructs. These constructs included an aerosolizable trimeric Nb with enhanced neutralization activity against Hla and SEC, and a decameric Nb-IgG-Fc fusion construct with pM or better potencies against a wide range of major toxins in S. aureus sepsis (SEB, SEC, TSST-1, and Hla). These multifunctional Nbs demonstrated protective activity in murine models of pneumonia and sepsis, underscoring their potential as versatile immunotherapies that address the complex virulence of S. aureus. Our work lays a foundation for precision immunotherapies beyond current treatment options to combat complex bacterial infections with multiple virulence mechanisms.
+  link: https://pubmed.ncbi.nlm.nih.gov/42161902/
+  image: assets/img/pubs/2026-staph-nanobodies.webp
+- year: 2026
+  title: Repertoire-scale antibody structural prediction informs therapeutic design
+  citation: Sang, Z., Xiang, Y., Huang, W., Sargunas, P.R., Kim, Y.J., Feng, Z., Taylor, D.J. and Shi, Y., 2026. Science Advances, 12(17), p.eaef7163.
+  abstract: We present AF3-TurboAb, a scalable framework that makes a repertoire-scale antibody-antigen complex structural decoding routine for antibody engineering. By eliminating preprocessing bottlenecks, AF3-TurboAb enables end-to-end complex modeling in 0.5 minutes per seed on a single GPU while preserving near-experimental interface fidelity, as validated on ~1000 posttraining Protein Data Bank (PDB) benchmarks and 12 experimentally determined cryo–electron microscopy nanobody-antigen structures. Applying this capability to 275,371 immunization-derived antigen-specific nanobodies produced 28,013 high-confidence complex predictions, substantially expanding the structural landscape of antibody recognition. The resulting atlas reveals hundreds of previously unmapped epitopes, extensive coverage of solvent-exposed surfaces, and recurrent affinity hotspots enriched in aromatic and charged residues. Despite wide sequence diversity, we observe structural convergence at shared epitopes and consistent physicochemical and geometric features that complement and extend existing PDB entries. We demonstrate translational utility by (i) designing durable (escape-proof), multiepitope neutralizers against highly evolved viruses, (ii) identifying cross-species and glycoform-specific binders to a cancer checkpoint, and (iii) enabling near-real-time in silico binder triage. The models and metadata will be shared for community use, establishing repertoire-scale structural decoding as a practical design modality that transforms the scale and speed of structure-guided antibody engineering.
+  link: https://pubmed.ncbi.nlm.nih.gov/42030385/
+  image: assets/img/pubs/2026-af3-turboab.webp
+- year: 2026
+  title: rRNA expansion segments mediate ribosome dimerization as a conserved stress response
+  citation: Jiang, W., Chen, C., Wang, X., Huang, W., Krokowski, D., Chen, Z., Xie, J., Su, Z., Hatzoglou, M., Taylor, D.J. and Guo, Q., 2026. Nucleic Acids Research, 54(7), p.gkag354.
+  abstract: Inhibition of messenger RNA translation is a common feature in proteostatic stress cellular responses. Puromycin, a widely used compound for studying translation, disrupts protein synthesis by mimicking the 3′ end of aminoacyl–transfer RNAs. Despite its extensive use as a research tool to probe the connection between translation activity and various physiological and pathological states, the cellular response associated with puromycin-induced translation stress remains incompletely understood. Here, we used electron tomography and topology analysis to define the effects of puromycin on the translation machinery in situ. We show that puromycin-treated neuronal cells exhibit an accumulation of eIF5A-bound ribosomes in a translationally inactive “idle” state, and thereby defining a broader role of eIF5A in ribosome homeostasis. Additionally, the idle ribosomes formed dimeric complexes mediated by ribosomal RNA expansion segments, suggesting an evolved mechanism involving these regions in translational hibernating and protecting idle ribosomes. We further show that the hibernating disome formation is not unique to puromycin administration but represents a conserved mechanism as a response to different cellular stressors including endoplasmic reticulum stress and amino acid depletion. Collectively, our findings illuminate distinct states of mammalian ribosome hibernation and dimerization, providing new insights into the relationship of cellular stress and the dynamic regulation of ribosomal activity.
+  link: https://pubmed.ncbi.nlm.nih.gov/42003549/
+  image: assets/img/pubs/2026-ribosome-dimer.webp
+- year: 2026
+  title: Structural analysis of rhodopsin states in megabody complexes.
+  citation: Salom, D., Suder, D.S., Huang, W., Wu, A., Pardon, E., Steyaert, J., Kiser, P.D., Taylor, D.J., Gonen, S. and Palczewski, K., 2026. Proceedings of the National Academy of Sciences, 123(6), p.e2532336123.
+  abstract: 'Rhodopsin, the most intensively studied G protein-coupled receptor (GPCR), is activated by light-induced isomerization of its chromophore 11-cis-retinal. This study employed cryogenic electron microscopy (cryo-EM) to investigate rhodopsin structure using a megabody (Mb7) as a negative allosteric modulator. Three distinct cryo-EM structures were solved: ground-state rhodopsin, photoactivated rhodopsin, and apo-rhodopsin, all in complex with Mb7. Photoactivated rhodopsin and apo-rhodopsin, both in complex with Mb7, maintain a conformation remarkably similar to ground-state rhodopsin rather than adopting a Meta-II-like conformation. Structural elements, including the conserved residues of the NPxxY motif and the ionic lock, remain in positions corresponding to inactive rhodopsin. The megabody forms extensive interactions with rhodopsin’s extracellular loop 2, N terminus, and glycans. The findings demonstrate that Mb7 stabilizes photoactivated rhodopsin in a Meta-I-like conformation, preventing progression to the active Meta-II state through specific immobilization of the extracellular domain. This work establishes a foundation for cryo-EM-guided discovery of ligands modulating rhodopsin.'
+  link: https://pubmed.ncbi.nlm.nih.gov/41650224/
+  image: assets/img/pubs/2026-rhodopsin-megabody.webp
+- year: 2025
+  title: Regulatory mechanisms of PP2A complex assembly driven by physicochemical differences in A-subunit isoforms
+  citation: Day, A., Huang, W., Leonard, D., O’Connor, C.M., Narla, G. and Taylor, D.J., 2025, Structure 33, 1688–1699.
+  abstract: Protein phosphatase 2A (PP2A) is crucial for regulating cellular pathways, with its holoenzyme assembly affecting enzyme function and substrate selection. The PP2A holoenzyme comprises scaffold A-, regulatory B-, and catalytic C-subunits, each with various isoforms. Here, we examine structural and biochemical characteristics of the A-subunit isoforms (Aα and Aβ) and identify different biophysical properties that may promote distinct PP2A functions. Our molecular dynamics simulations and cryo-EM analyses define structural differences in the isoforms that reside primarily at the N-terminus of the A-subunit where it interfaces with regulatory B-subunits. Kinetic analyses show Aβ has a lower binding affinity in complexes with B56 subunits and exhibits unique aggregative properties as a monomeric protein. These findings suggest that the different physicochemical properties between A-subunit isoforms are key to PP2A holoenzyme assembly and function. We predict that the Aβ serves as a reservoir, ensuring that serine-threonine phosphatase activity is maintained during high regulatory demand.
+  link: https://pubmed.ncbi.nlm.nih.gov/40712571/
+  image: assets/img/pubs/2025-pp2a-a-isoforms.webp
+- year: 2025
+  title: 15-PGDH inhibition enhances hematopoietic regeneration during aging
+  citation: Chaudhary, R., Cordova, B.A., Hong, M., Klein, B.R., Contreras, L.A., Rashmil, R., Goshevski, F., Smith, J.N., Taylor, D.J., Pieper, A.A. and Markowitz, S., 2025. Stem Cells, p.sxaf047.
+  abstract: Hematopoietic aging is characterized by diminished stem cell regenerative capacity and an increased risk of hematologic dysfunction. We previously identified that the prostaglandin-degrading enzyme 15-hydroxyprostaglandin dehydrogenase (15-PGDH) regulates hematopoietic stem cell activity. Here, we expand on this work and demonstrate that in aged mice, (1) 15-PGDH expression and activity remain conserved in the bone marrow and spleen, suggesting it remains a viable therapeutic target in aging, (2) prolonged PGDH inhibition (PGDHi) significantly increases the frequency and number of phenotypic hematopoietic stem and progenitor cells across multiple compartments, with transcriptional changes indicative of enhanced function, (3) PGDHi-treated bone marrow enhances short-term hematopoietic recovery following transplantation, leading to improved peripheral blood output and accelerated multilineage reconstitution, and (4) PGDHi confers a competitive advantage in primary hematopoietic transplantation while mitigating age-associated myeloid bias in secondary transplants. Notably, these effects occur without perturbing steady-state blood production, suggesting that PGDHi enhances hematopoiesis under regenerative conditions while maintaining homeostasis. Our work identifies PGDHi as a translatable intervention to rejuvenate aged HSCs and mitigate hematopoietic decline.
+  link: https://pubmed.ncbi.nlm.nih.gov/40608981/
+  image: assets/img/pubs/2025-15pgdh-aging.webp
+- year: 2025
+  title: Mutant PP2A Induces IGFBP2 Secretion to Promote Development of High-Grade Uterine Cancer
+  citation: Haanen III, T.J., Boock, S., Callahan, C.G., Peris, I., Zawacki, K.P., Raines, B., Nino, C.A., Tran, B., Harold, A., Hodges Onishi, G. and Hinderman, M., 2025. Cancer Research, 85 (3), pp.442-461.
+  abstract: 'Uterine serous carcinoma (USC) and uterine carcinosarcoma (UCS) tumors are uniquely aggressive, suggesting that the primary tumor is intrinsically equipped to disseminate and metastasize. Previous work identified mutational hotspots within PPP2R1A, which encodes the Aα scaffolding subunit of protein phosphatase 2A (PP2A), a heterotrimeric serine/threonine phosphatase. Two recurrent heterozygous PPP2R1A mutations, P179R and S256F, occur exclusively within high-grade subtypes of uterine cancer and can drive tumorigenesis and metastasis. Elucidation of the mechanisms by which PP2A Aα mutants promote tumor development and progression could help identify therapeutic opportunities. Here, we showed that expression of these mutants in USC/UCS cell lines enhanced tumor-initiating capacity, drove a hybrid epithelial-to-mesenchymal plasticity phenotype, and elevated secretion of the tumorigenic cytokine insulin growth factor (IGF) binding protein 2 (IGFBP2). Therapeutic targeting of the IGFBP2/IGF receptor 1 signaling axis using small molecules and genetic approaches resulted in marked tumor growth inhibition. Mechanistically, PP2A regulated IGFBP2 expression through the transcription factor, NF-κB, which harbors a B56 recognition motif. Collectively, these results identify a role for PP2A in regulating paracrine cancer cell signaling that can be targeted to block the initiation and metastasis of high-grade uterine cancer. Significance: Elevated IGFBP2 secretion by uterine cancer cells with heterozygous PPP2R1A mutations supports tumor progression and confers a vulnerability to IGFBP2/IGF1R inhibition as a therapeutic approach for this highly aggressive cancer subtype.'
+  link: https://pubmed.ncbi.nlm.nih.gov/39531506/
+  image: assets/img/pubs/2025-pp2a-uterine.webp
+- year: 2025
+  title: Cryo-EM structures reveal the PP2A–B55α and Eya3 interaction that can be disrupted by a peptide inhibitor
+  citation: Shi, S., Li, X., Alderman, C., Wick, L., Huang, W., Foulon, N., Zhang, L., Rossi, J., Hu, W., Cui, S. and Zheng, H., 2025. Journal of Biological Chemistry, p.110287.
+  abstract: We have previously shown that Eya3 recruits PP2A-B55α to dephosphorylate pT58 on Myc, increasing Myc stability and enhancing primary tumor growth of triple-negative breast cancer (TNBC). However, the molecular details of how Eya3 recruits PP2A-B55α remain unclear. Here we determined the cryo-EM structures of PP2A-B55α bound with Eya3, with an inhibitory peptide B55i, and in its unbound state. These studies demonstrate that Eya3 binds B55α through an extended peptide in the NTD of Eya3. The Eya3 peptide, PP2A-B55α substrates, and protein/peptide inhibitors including B55i bind to a similar area on the B55α surface but the molecular details of the binding differ. We further demonstrated that the B55i peptide inhibits the B55α and Eya3 interaction in vitro. The B55i peptide expressed on a plasmid increases Myc pT58 and decreases Myc protein levels in TNBC cells, suggesting the potential of B55i or similar peptides as therapies for TNBC.
+  link: https://pubmed.ncbi.nlm.nih.gov/40414499/
+  image: assets/img/pubs/2025-b55-eya3.webp
+- year: 2025
+  title: Leucine-rich alpha-2-glycoprotein 1 promotes metastatic colorectal cancer growth through Human epidermal growth factor receptor 3 signaling
+  citation: Rathore, M., Curry, K., Huang, W., Wright, M.L., Martin, D., Baek, J., Taylor, D., Miyagi, M., Tang, W., Feng, H. and Li, Y., 2025. Gastroenterology, 168 (2), pp.300-315.
+  link: https://pubmed.ncbi.nlm.nih.gov/39393543/
+  image: assets/img/pubs/2025-lrg1-crc.webp
+- year: 2024
+  title: Adaptive multi-epitope targeting and avidity-enhanced nanobody platform for ultrapotent, durable antiviral therapy
+  citation: Xiang, Y., Xu, J., McGovern, B.L., Ranzenigo, A., Huang, W., Sang, Z., Shen, J., Diaz-Tapia, R., Pham, N.D., Teunissen, A.J., Rodriguez, M.L., Benjamin, J., Taylor, D.J., van Leent, M.T., White, K.M., Garcia-Sastre, A., Zhang, P.J. and Shi, Y., 2024. Cell. 2024 Oct 23.
+  abstract: Pathogens constantly evolve and can develop mutations that evade host immunity and treatment. Addressing these escape mechanisms requires targeting evolutionarily conserved vulnerabilities, as mutations in these regions often impose fitness costs. We introduce adaptive multi-epitope targeting with enhanced avidity (AMETA), a modular and multivalent nanobody platform that conjugates potent bispecific nanobodies to a human immunoglobulin M (IgM) scaffold. AMETA can display 20+ nanobodies, enabling superior avidity binding to multiple conserved and neutralizing epitopes. By leveraging multi-epitope SARS-CoV-2 nanobodies and structure-guided design, AMETA constructs exponentially enhance antiviral potency, surpassing monomeric nanobodies by over a million-fold. These constructs demonstrate ultrapotent, broad, and durable efficacy against pathogenic sarbecoviruses, including Omicron sublineages, with robust preclinical results. Structural analysis through cryoelectron microscopy and modeling has uncovered multiple antiviral mechanisms within a single construct. At picomolar to nanomolar concentrations, AMETA efficiently induces inter-spike and inter-virus cross-linking, promoting spike post-fusion and striking viral disarmament. AMETA’s modularity enables rapid, cost-effective production and adaptation to evolving pathogens.
+  link: https://pubmed.ncbi.nlm.nih.gov/39447570/
+  image: assets/img/pubs/2024-ameta.webp
+- year: 2024
+  title: Oligomerization and a distinct tRNA-binding loop are important regulators of human arginyl-transferase function
+  citation: Lan, X., Huang, W., Kim, S.B., Fu, D., Abeywansha, T., Lou, J., Balamurugan, U., Kwon, Y.T., Ji, C.H., Taylor, D.J. and Zhang, Y., 2024. Nature Communications, 15 (1), p.6350.
+  link: https://pubmed.ncbi.nlm.nih.gov/39068213/
+  image: assets/img/pubs/2024-hate1.webp
+- year: 2024
+  title: Structural basis for regulated assembly of the mitochondrial fission GTPase Drp1
+  citation: Rochon, K., Bauer, B.L., Roethler, N.A., Buckley, Y., Su, C.C., Huang, W., Ramachandran, R., Stoll, M.S., Yu, E.W., Taylor, D.J. and Mears, J.A., 2024. Nature Communications, 15 (1), p.1328.
+  abstract: Mitochondrial fission is a critical cellular event to maintain organelle function. This multistep process is initiated by the enhanced recruitment and oligomerization of dynamin-related protein 1 (Drp1) at the surface of mitochondria. As such, Drp1 is essential for inducing mitochondrial division in mammalian cells, and homologous proteins are found in all eukaryotes. As a member of the dynamin superfamily of proteins (DSPs), controlled Drp1 self-assembly into large helical polymers stimulates its GTPase activity to promote membrane constriction. Still, little is known about the mechanisms that regulate correct spatial and temporal assembly of the fission machinery. Here we present a cryo-EM structure of a full-length Drp1 dimer in an auto-inhibited state. This dimer reveals two key conformational rearrangements that must be unlocked through intramolecular rearrangements to achieve the assembly-competent state observed in previous structures. This structural insight provides understanding into the mechanism for regulated self-assembly of the mitochondrial fission machinery.
+  link: https://pubmed.ncbi.nlm.nih.gov/38351080/
+  image: assets/img/pubs/2024-drp1.webp
+- year: 2024
+  title: The specificity landscape of bacterial ribonuclease P
+  citation: Chamberlain, A. R., Huynh, L., Huang, W., Taylor, D. J., & Harris, M. E. (2024). Journal of Biological Chemistry, 300(1).
+  abstract: Developing quantitative models of substrate specificity for RNA processing enzymes is a key step toward understanding their biology and guiding applications in biotechnology and biomedicine. Optimally, models to predict relative rate constants for alternative substrates should integrate an understanding of structures of the enzyme bound to “fast” and “slow” substrates, large datasets of rate constants for alternative substrates, and transcriptomic data identifying in vivo processing sites. Such data are either available or emerging for bacterial ribonucleoprotein RNase P a widespread and essential tRNA 5′ processing endonuclease, thus making it a valuable model system for investigating principles of biological specificity. Indeed, the well-established structure and kinetics of bacterial RNase P enabled the development of high throughput measurements of rate constants for tRNA variants and provided the necessary framework for quantitative specificity modeling. Several studies document the importance of conformational changes in the precursor tRNA substrate as well as the RNA and protein subunits of bacterial RNase P during binding, although the functional roles and dynamics are still being resolved. Recently, results from cryo-EM studies of E. coli RNase P with alternative precursor tRNAs are revealing prospective mechanistic relationships between conformational changes and substrate specificity. Yet, extensive uncharted territory remains, including leveraging these advances for drug discovery, achieving a complete accounting of RNase P substrates, and understanding how the cellular context contributes to RNA processing specificity in vivo.
+  link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10731613/
+  image: assets/img/pubs/2024-rnasep-specificity.webp
+- year: 2023
+  title: Loss of LCMT1 and biased protein phosphatase 2A heterotrimerization drive prostate cancer progression and therapy resistance
+  citation: Rasool, R.U., O’Connor, C.M., Das, C.K., Alhusayan, M., Verma, B.K., Islam, S., Frohner, I.E., Deng, Q., Mitchell-Velasquez, E., Sangodkar, J., Ahmed, A., Linauer, S., Mudrak, I., Rainey, J., Zawacki, K., Suhan, T., Callahan, C., Rebernick, R., Natesan, R., Siddiqui, J., Sauter, G., Thomas, D., Wang, S., Taylor, D., Simon, R., Cieslik, M., Chinnaiyan, A., Busino, L., Ogris, E., Narla, G., and Asangani, I. 2023. Nature Communications, 14 (1), p.5253.
+  abstract: Loss of the tumor suppressive activity of the protein phosphatase 2A (PP2A) is associated with cancer, but the underlying molecular mechanisms are unclear. PP2A holoenzyme comprises a heterodimeric core, a scaffolding A subunit and a catalytic C subunit, and one of over 20 distinct substrate-directing regulatory B subunits. Methylation of the C subunit regulates PP2A heterotrimerization, affecting B subunit binding and substrate specificity. Here, we report that the leucine carboxy methyltransferase (LCMT1), which methylates the L309 residue of the C subunit, acts as a suppressor of androgen receptor (AR) addicted prostate cancer (PCa). Decreased methyl-PP2A-C levels in prostate tumors is associated with biochemical recurrence and metastasis. Silencing LCMT1 increases AR activity and promotes castration-resistant prostate cancer growth. LCMT1-dependent methyl-sensitive AB56αCme heterotrimers target AR and its critical coactivator MED1 for dephosphorylation, resulting in the eviction of the AR-MED1 complex from chromatin and loss of target gene expression. Mechanistically, LCMT1 is regulated by S6K1-mediated phosphorylation-induced degradation requiring the β-TRCP, leading to acquired resistance to anti-androgens. Finally, feedforward stabilization of LCMT1 by small molecule activator of phosphatase (SMAP) results in attenuation of AR-signaling and tumor growth inhibition in anti-androgen refractory PCa. These findings highlight methyl-PP2A-C as a prognostic marker and that the loss of LCMT1 is a major determinant in AR-addicted PCa, suggesting therapeutic potential for AR degraders or PP2A modulators in prostate cancer treatment.
+  link: https://pubmed.ncbi.nlm.nih.gov/37644036/
+  image: assets/img/pubs/2023-lcmt1.webp
+- year: 2023
+  title: Small molecule inhibitors of 15-PGDH exploit a physiologic induced-fit closing system
+  citation: Huang, W., Li, H., Kiselar, J., Fink, S.P., Regmi, S., Day, A., Yuan, Y., Chance, M., Ready, J.M., Markowitz, S.D. and Taylor, D.J., 2023. Nature communications, 14 (1), p.784.
+  abstract: 15-prostaglandin dehydrogenase (15-PGDH) is a negative regulator of tissue stem cells that acts via enzymatic activity of oxidizing and degrading PGE2, and related eicosanoids, that support stem cells during tissue repair. Indeed, inhibiting 15-PGDH markedly accelerates tissue repair in multiple organs. Here we have used cryo-electron microscopy to solve the solution structure of native 15-PGDH and of 15-PGDH individually complexed with two distinct chemical inhibitors. These structures identify key 15-PGDH residues that mediate binding to both classes of inhibitors. Moreover, we identify a dynamic 15-PGDH lid domain that closes around the inhibitors, and that is likely fundamental to the physiologic 15-PGDH enzymatic mechanism. We furthermore identify two key residues, F185 and Y217, that act as hinges to regulate lid closing, and which both inhibitors exploit to capture the lid in the closed conformation, thus explaining their sub-nanomolar binding affinities. These findings provide the basis for further development of 15-PGDH targeted drugs as therapeutics for regenerative medicine.
+  link: https://pubmed.ncbi.nlm.nih.gov/36774348/
+  image: https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-023-36463-7/MediaObjects/41467_2023_36463_Fig6_HTML.png?as=webp
+- year: 2023
+  title: The structural basis of tRNA recognition by arginyl-tRNA-protein transferase
+  citation: Abeywansha, T., Huang, W., Ye, X., Nawrocki, A., Lan, X., Jankowsky, E., Taylor, D.J. and Zhang, Y., 2023. Nature Communications, 14 (1), p.2232.
+  abstract: Arginyl-tRNA-protein transferase 1 (ATE1) is a master regulator of protein homeostasis, stress response, cytoskeleton maintenance, and cell migration. The diverse functions of ATE1 arise from its unique enzymatic activity to covalently attach an arginine onto its protein substrates in a tRNA-dependent manner. However, how ATE1 (and other aminoacyl-tRNA transferases) hijacks tRNA from the highly efficient ribosomal protein synthesis pathways and catalyzes the arginylation reaction remains a mystery. Here, we describe the three-dimensional structures of Saccharomyces cerevisiae ATE1 with and without its tRNA cofactor. Importantly, the putative substrate binding domain of ATE1 adopts a previously uncharacterized fold that contains an atypical zinc-binding site critical for ATE1 stability and function. The unique recognition of tRNA Arg by ATE1 is coordinated through interactions with the major groove of the acceptor arm of tRNA. Binding of tRNA induces conformational changes in ATE1 that helps explain the mechanism of substrate arginylation.
+  link: https://pubmed.ncbi.nlm.nih.gov/37076488/
+  image: assets/img/pubs/2023-ate1-trna.webp
+- year: 2023
+  title: Oligomerization-mediated activation of a short prokaryotic Argonaute
+  citation: Shen, Z., Yang, X.Y., Xia, S., Huang, W., Taylor, D.J., Nakanishi, K. and Fu, T.M., 2023. Nature, 621, p.154–161.
+  abstract: Although eukaryotic and long prokaryotic Argonaute proteins (pAgos) cleave nucleic acids, some short pAgos lack nuclease activity and hydrolyse NAD(P) + to induce bacterial cell death 1. Here we present a hierarchical activation pathway for SPARTA, a short pAgo consisting of an Argonaute (Ago) protein and TIR–APAZ, an associated protein 2. SPARTA progresses through distinct oligomeric forms, including a monomeric apo state, a monomeric RNA–DNA-bound state, two dimeric RNA–DNA-bound states and a tetrameric RNA–DNA-bound active state. These snapshots together identify oligomerization as a mechanistic principle of SPARTA activation. The RNA–DNA-binding channel of apo inactive SPARTA is occupied by an auto-inhibitory motif in TIR–APAZ. After the binding of RNA–DNA, SPARTA transitions from a monomer to a symmetric dimer and then an asymmetric dimer, in which two TIR domains interact through charge and shape complementarity. Next, two dimers assemble into a tetramer with a central TIR cluster responsible for hydrolysing NAD(P) +. In addition, we observe unique features of interactions between SPARTA and RNA–DNA, including competition between the DNA 3′ end and the auto-inhibitory motif, interactions between the RNA G2 nucleotide and Ago, and splaying of the RNA–DNA duplex by two loops exclusive to short pAgos. Together, our findings provide a mechanistic basis for the activation of short pAgos, a large section of the Ago superfamily.
+  link: https://pubmed.ncbi.nlm.nih.gov/37494956/
+  image: assets/img/pubs/2023-sparta.webp
+- year: 2022
+  title: Structural and mechanistic basis for recognition of alternative tRNA precursor substrates by bacterial ribonuclease P
+  citation: Zhu, J., Huang, W., Zhao, J., Huynh, L., Taylor, D.J. and Harris, M.E., 2022. Nature Communications, 13 (1), p.5120.
+  abstract: Binding of precursor tRNAs (ptRNAs) by bacterial ribonuclease P (RNase P) involves an encounter complex (ES) that isomerizes to a catalytic conformation (ES*). However, the structures of intermediates and the conformational changes that occur during binding are poorly understood. Here, we show that pairing between the 5′ leader and 3′RCCA extending the acceptor stem of ptRNA inhibits ES* formation. Cryo-electron microscopy single particle analysis reveals a dynamic enzyme that becomes ordered upon formation of ES* in which extended acceptor stem pairing is unwound. Comparisons of structures with alternative ptRNAs reveals that once unwinding is completed RNase P primarily uses stacking interactions and shape complementarity to accommodate alternative sequences at its cleavage site. Our study reveals active site interactions and conformational changes that drive molecular recognition by RNase P and lays the foundation for understanding how binding interactions are linked to helix unwinding and catalysis.
+  link: https://pubmed.ncbi.nlm.nih.gov/36045135/
+  image: assets/img/pubs/2022-rnasep.webp
+- year: 2022
+  title: Superimmunity by pan-sarbecovirus nanobodies
+  citation: Xiang, Y., Huang, W., Liu, H., Sang, Z., Nambulli, S., Tubiana, J., Williams, K.L., Duprex, W.P., Schneidman-Duhovny, D., Wilson, I.A. and Taylor, D.J., 2022. Cell Reports, 39 (13).
+  abstract: Vaccine boosters and infection can facilitate the development of SARS-CoV-2 antibodies with improved potency and breadth. Here, we observe superimmunity in a camelid extensively immunized with the SARS-CoV-2 receptor-binding domain (RBD). We rapidly isolate a large repertoire of specific ultra-high-affinity nanobodies that bind strongly to all known sarbecovirus clades using integrative proteomics. These pan-sarbecovirus nanobodies (psNbs) are highly effective against SARS-CoV and SARS-CoV-2 variants, including Omicron, with the best median neutralization potency at single-digit nanograms per milliliter. A highly potent, inhalable, and bispecific psNb (PiN-31) is also developed. Structural determinations of 13 psNbs with the SARS-CoV-2 spike or RBD reveal five epitope classes, providing insights into the mechanisms and evolution of their broad activities. The highly evolved psNbs target small, flat, and flexible epitopes that contain over 75% of conserved RBD surface residues. Their potencies are strongly and negatively correlated with the distance of the epitopes from the receptor binding sites.
+  link: https://pubmed.ncbi.nlm.nih.gov/35738279/
+  image: assets/img/pubs/2022-psnb.webp
+- year: 2022
+  title: Structure of the Anthrax Protective Antigen D425A Dominant Negative Mutant Reveals a Stalled Intermediate State of Pore Maturation
+  citation: Scott, H., Huang, W., Andra, K., Mamillapalli, S., Gonti, S., Day, A., Zhang, K., Mehzabeen, N., Battaile, K.P., Raju, A. and Lovell, S., 2022. Journal of molecular biology, 434 (9), p.167548.
+  abstract: The tripartite protein complex produced by anthrax bacteria ( Bacillus anthracis ) is a member of the AB family of β-barrel pore-forming toxins. The protective antigen (PA) component forms an oligomeric prepore that assembles on the host cell surface and serves as a scaffold for binding of lethal and edema factors. Following endocytosis, the acidic environment of the late endosome triggers a pH-induced conformational rearrangement to promote maturation of the PA prepore to a functional, membrane spanning pore that facilitates delivery of lethal and edema factors to the cytosol of the infected host. Here, we show that the dominant-negative D425A mutant of PA stalls anthrax pore maturation in an intermediate state at acidic pH. Our 2.7 Å cryo-EM structure of the intermediate state reveals structural rearrangements that involve constriction of the oligomeric pore combined with an intramolecular dissociation of the pore-forming module. In addition to defining the early stages of anthrax pore maturation, the structure identifies asymmetric conformational changes in the oligomeric pore that are influenced by the precise configuration of adjacent protomers.
+  link: https://pubmed.ncbi.nlm.nih.gov/35304125/
+  image: assets/img/pubs/2022-anthrax-pa.webp
+- year: 2021
+  title: Potent neutralizing nanobodies resist convergent circulating variants of SARS-CoV-2 by targeting diverse and conserved epitopes
+  citation: Sun, D., Sang, Z., Kim, Y.J., Xiang, Y., Cohen, T., Belford, A.K., Huet, A., Conway, J.F., Sun, J., Taylor, D.J., Schneidman-Duhovny, D., Zhang, C., Huang, W. and Shi, Y., 2021. Nature communications, 12 (1), p.4676.
+  abstract: 'Interventions against variants of severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) are urgently needed. Stable and potent nanobodies (Nbs) that target the receptor binding domain (RBD) of SARS-CoV-2 spike are promising therapeutics. However, it is unknown if Nbs broadly neutralize circulating variants. We found that RBD Nbs are highly resistant to variants of concern (VOCs). High-resolution cryoelectron microscopy determination of eight Nb-bound structures reveals multiple potent neutralizing epitopes clustered into three classes: Class I targets ACE2-binding sites and disrupts host receptor binding. Class II binds highly conserved epitopes and retains activity against VOCs and RBD SARS-CoV. Cass III recognizes unique epitopes that are likely inaccessible to antibodies. Systematic comparisons of neutralizing antibodies and Nbs provided insights into how Nbs target the spike to achieve high-affinity and broadly neutralizing activity. Structure-function analysis of Nbs indicates a variety of antiviral mechanisms. Our study may guide the rational design of pan-coronavirus vaccines and therapeutics.'
+  link: https://pubmed.ncbi.nlm.nih.gov/34344900/
+  image: assets/img/pubs/2021-nanobodies.webp
+- year: 2021
+  title: SLX4IP promotes RAP1 SUMOylation by PIAS1 to coordinate telomere maintenance through NF-κB and Notch signaling
+  citation: Robinson, N.J., Miyagi, M., Scarborough, J.A., Scott, J.G., Taylor, D.J. and Schiemann, W.P., 2021. Science signaling, 14 (689), p.eabe9613.
+  abstract: The maintenance of telomere length supports repetitive cell division and therefore plays a central role in cancer development and progression. Telomeres are extended by either the enzyme telomerase or the alternative lengthening of telomeres (ALT) pathway. Here, we found that the telomere-associated protein SLX4IP dictates telomere proteome composition by recruiting and activating the E3 SUMO ligase PIAS1 to the SLX4 complex. PIAS1 SUMOylated the telomere-binding protein RAP1, which disrupted its interaction with the telomere-binding protein TRF2 and facilitated its nucleocytoplasmic shuttling. In the cytosol, RAP1 bound to IκB kinase (IKK), resulting in activation of the transcription factor NF-κB and its induction of Jagged-1 expression, which promoted Notch signaling and the institution of ALT. This axis could be targeted therapeutically in ALT-driven cancers and in tumor cells that develop resistance to antitelomerase therapies. Our results illuminate the mechanisms underlying SLX4IP-dependent telomere plasticity and demonstrate the role of telomere proteins in directly coordinating intracellular signaling and telomere maintenance dynamics.
+  link: https://pubmed.ncbi.nlm.nih.gov/34187905/
+  image: assets/img/pubs/2021-slx4ip-rap1.webp
+- year: 2021
+  title: Active and passive destabilization of G-quadruplex DNA by the telomere POT1-TPP1 complex
+  citation: Xu, M., Axhemi, A., Malgowska, M., Chen, Y., Leonard, D., Srinivasan, S., Jankowsky, E. and Taylor, D.J., 2021. Journal of molecular biology, 433 (7), p.166846.
+  abstract: Chromosome ends are protected by guanosine-rich telomere DNA that forms stable G-quadruplex (G4) structures. The heterodimeric POT1-TPP1 complex interacts specifically with telomere DNA to shield it from illicit DNA damage repair and to resolve secondary structure that impedes telomere extension. The mechanism by which POT1-TPP1 accomplishes these tasks is poorly understood. Here, we establish the kinetic framework for POT1-TPP1 binding and unfolding of telomere G4 DNA. Our data identify two modes of POT1-TPP1 destabilization of G4 DNA that are governed by protein concentration. At low concentrations, POT1-TPP1 passively captures transiently unfolded G4s. At higher concentrations, POT1-TPP1 proteins bind to G4s to actively destabilize the DNA structures. Cancer-associated POT1-TPP1 mutations impair multiple reaction steps in this process, resulting in less efficient destabilization of G4 structures. The mechanistic insight highlights the importance of cell cycle dependent expression and localization of the POT1-TPP1 complex and distinguishes diverse functions of this complex in telomere maintenance.
+  link: https://pubmed.ncbi.nlm.nih.gov/33549587/
+  image: assets/img/pubs/2021-pot1-g4.webp
+- year: 2021
+  title: SLX4IP Promotes Telomere Maintenance in Androgen Receptor–Independent Castration-Resistant Prostate Cancer through ALT-like Telomeric PML Localization
+  citation: Mangosh, T.L., Awadallah, W.N., Grabowska, M.M. and Taylor, D.J., 2021. Molecular Cancer Research, 19 (2), pp.301-316.
+  abstract: 'In advanced prostate cancer, resistance to androgen deprivation therapy is achieved through numerous mechanisms, including loss of the androgen receptor (AR) allowing for AR-independent growth. Therapeutic options are limited for AR-independent castration-resistant prostate cancer (CRPC), and defining mechanisms critical for survival is of utmost importance for targeting this lethal disease. Our studies focus on identifying telomere maintenance mechanism (TMM) hallmarks adopted by CRPC to promote survival. TMMs are responsible for telomere elongation to instill replicative immortality and prevent senescence, with the two TMM pathways available being telomerase and alternative lengthening of telomeres (ALT). Here, we show that AR-independent CRPC demonstrates an atypical ALT-like phenotype with variable telomerase expression and activity, whereas AR-dependent models lack discernible ALT hallmarks. In addition, AR-independent CRPC cells exhibited elevated levels of SLX4IP, a protein implicated in promoting ALT. SLX4IP overexpression in AR-dependent C4-2B cells promoted an ALT-like phenotype and telomere maintenance. SLX4IP knockdown in AR-independent DU145 and PC-3 cells led to ALT-like hallmark reduction, telomere shortening, and induction of senescence. In PC-3 xenografts, this effect translated to reduced tumor volume. Using an in vitro model of AR-independent progression, loss of AR in AR-dependent C4-2B cells promoted an atypical ALT-like phenotype in an SLX4IP-dependent manner. Insufficient SLX4IP expression diminished ALT-like hallmarks and resulted in accelerated telomere loss and senescence.
+
+
+    This study demonstrates a unique reliance of AR-independent CRPC on SLX4IP-mediated ALT-like hallmarks and loss of these hallmarks induces telomere shortening and senescence, thereby impairing replicative immortality.'
+  link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8086381/
+  image: assets/img/pubs/2021-slx4ip-crpc.webp
+- year: 2021
+  title: SLX4IP N-terminus dictates telomeric localization in ALT-like castration-resistant prostate cancer cell lines
+  citation: Mangosh, T.L., Grabowska, M.M. and Taylor, D.J., 2021. The Prostate, 81 (15), pp.1235-1251.
+  abstract: 'Background: To ensure replicative immortality in cancer, telomeres must be maintained through activation of telomere maintenance mechanisms (TMMs) that are dependent on telomerase or the alternative lengthening of telomeres (ALT) pathway. Although TMM pathways have traditionally been considered to be mutually exclusive, ALT hallmarks have been identified in cancers defined as being telomerase-positive, supporting TMM coexistence. In castration-resistant prostate cancer (CRPC), in vitro models were thought to be universally dependent on telomerase as the primary TMM; however, CRPC models with androgen receptor (AR) loss demonstrate ALT hallmarks with limited telomerase activity and require ALT-associated PML bodies (APBs) for sustained telomere maintenance. The TMM coexistence in AR-negative CRPC is reliant on the ALT regulator protein, SLX4IP.
+
+
+    Methods: To identify the regions of SLX4IP responsible for the induction of APBs and telomere preservation in CRPC models, five 3xFLAG-tagged SLX4IP constructs were designed and stably introduced into parental C4-2B, DU145, and PC-3 cells. Once generated, these cell lines were interrogated for APB abundance and SLX4IP construct localization via immunofluorescence-fluorescence in situ hybridization (IF-FISH) and coimmunoprecipitation experiments for telomeric localization. Similarly, PC-3 cells with endogenous SLX4IP knockdown and SLX4IP construct introduction were interrogated for APB abundance, telomere length preservation, and senescent rescue.
+
+
+    Results: Here, we define the N-terminus of SLX4IP as being responsible for the promotion of the ALT-like phenotype of AR-negative CRPC models. Specifically, the N-terminus of SLX4IP was sufficient for promoting APB formation to a similar degree as full-length SLX4IP across CRPC cell lines. Additionally, APB promotion by the N-terminus of SLX4IP rescued telomere shortening and senescent induction triggered by SLX4IP knockdown in AR-negative CRPC cells. Moreover, APB formation and telomere maintenance were dependent on the ability of the N-terminus to direct SLX4IP localization at telomeres and APBs.
+
+
+    Conclusions: These findings identify the role of the uncharacterized ALT regulator SLX4IP in the promotion of TMM coexistence to perpetuate replicative immortality in CRPC in vitro.'
+  link: https://pubmed.ncbi.nlm.nih.gov/34492133/
+  image: assets/img/pubs/2021-slx4ip-nterm.webp
+- year: 2020
+  title: A virus-induced conformational switch of STAT1-STAT2 dimers boosts antiviral defenses
+  citation: Wang, Y., Song, Q., Huang, W., Lin, Y., Wang, X., Wang, C., Willard, B., Zhao, C., Nan, J., Holvey-Bates, E. Wang, Z., Taylor, D., Yang, J. and Stark, G., 2021. Cell Research, 31 (2), pp.206-218.
+  abstract: Type I interferons (IFN-I) protect us from viral infections. Signal transducer and activator of transcription 2 (STAT2) is a key component of interferon-stimulated gene factor 3 (ISGF3), which drives gene expression in response to IFN-I. Using electron microscopy, we found that, in naive cells, U-STAT2, lacking the activating tyrosine phosphorylation, forms a heterodimer with U-STAT1 in an inactive, anti-parallel conformation. A novel phosphorylation of STAT2 on T404 promotes IFN-I signaling by disrupting the U-STAT1-U-STAT2 dimer, facilitating the tyrosine phosphorylation of STATs 1 and 2 and enhancing the DNA-binding ability of ISGF3. IKK-ε, activated by virus infection, phosphorylates T404 directly. Mice with a T-A mutation at the corresponding residue (T403) are highly susceptible to virus infections. We conclude that T404 phosphorylation drives a critical conformational switch that, by boosting the response to IFN-I in infected cells, enables a swift and efficient antiviral defense.
+  link: https://pubmed.ncbi.nlm.nih.gov/32759968/
+  image: assets/img/pubs/2020-stat1-stat2.webp
+- year: 2020
+  title: Selective PP2A Enhancement through Biased Heterotrimer Stabilization
+  citation: Leonard, D., Huang, W., Izadmehr, S., O’Connor, C.M., Wiredja, D.D., Wang, Z., Zaware, N., Chen, Y., Schlatzer, D.M., Kiselar, J., Vasireddi, N., Schuchner, S., Perl, A., Galsky, M., Xu, W., Brautigan, D., Ogris, E., Taylor, D. and Narla, G., 2020. Cell, 181 (3), pp.688-701.
+  abstract: Impairment of protein phosphatases, including the family of serine/threonine phosphatases designated PP2A, is essential for the pathogenesis of many diseases, including cancer. The ability of PP2A to dephosphorylate hundreds of proteins is regulated by over 40 specificity-determining regulatory “B” subunits that compete for assembly and activation of heterogeneous PP2A heterotrimers. Here, we reveal how a small molecule, DT-061, specifically stabilizes the B56α-PP2A holoenzyme in a fully assembled, active state to dephosphorylate selective substrates, such as its well-known oncogenic target, c-Myc. Our 3.6 Å structure identifies molecular interactions between DT-061 and all three PP2A subunits that prevent dissociation of the active enzyme and highlight inherent mechanisms of PP2A complex assembly. Thus, our findings provide fundamental insights into PP2A complex assembly and regulation, identify a unique interfacial stabilizing mode of action for therapeutic targeting, and aid in the development of phosphatase-based therapeutics tailored against disease specific phospho-protein targets.
+  link: https://pubmed.ncbi.nlm.nih.gov/32315618/
+  image: assets/img/pubs/2020-smap-cell.webp
+  highlights:
+  - 'Spotlight Article with Preview: Westermarck, J. & Neel, B.G. (2020) Piecing together a broken tumor suppressor phosphatase for cancer therapy. Cell. 181(3): 514-517. PMID: 32359434.'
+  - 'Research Highlight: Willson, J. (2020) Selective stabilization supports phosphatase targeting in cancer. Nature Reviews Drug Discovery. 2020 May 11. doi: 10.1038/d41573-020-00091-3. PMID: 32393817.'
+  - 'Research Watch: by Cancer Discovery editorial staff. (2020). PP2A Activators Stabilize PP2A Complexes with Differing Specificities. Jul;10(7):OF9. doi: 10.1158/2159-8290.CD-RW2020-073. Epub 2020 May 15. PMID: 32414905.'
+  - 'Research Spotlight: Shah, V.M., English, I.A., & Sears, R.C. (2020) Select stabilization of a tumor suppressive PP2A heterotrimer. Trends in Pharmacological Sciences. 2020 Jul 2;S0165-6147(20)30144-9. doi: 10.1016/j.tips.2020.06.008. PMID: 32624198.'
+  - 'Faculty Opinions Recommended: Yu, E. (2020) Selective PP2A Enhancement through Biased Heterotrimer Stabilization. In Faculty Opinions, 11 May 2020; doi: 10.3410/f.737780632.793574081.'
+- year: 2020
+  title: SLX4IP and telomere dynamics dictate breast cancer metastasis and therapeutic responsiveness
+  citation: Robinson, N.J., Morrison-Smith, C.D., Gooding, A.J., Schiemann, B.J., Jackson, M.W., Taylor, D.J. and Schiemann, W.P., 2020. Life Science Alliance, 3 (4)
+  abstract: Metastasis is the leading cause of breast cancer-related death and poses a substantial clinical burden owing to a paucity of targeted treatment options. The clinical manifestations of metastasis occur years-to-decades after initial diagnosis and treatment because disseminated tumor cells readily evade detection and resist therapy, ultimately giving rise to recurrent disease. Using an unbiased genetic screen, we identified SLX4-interacting protein (SLX4IP) as a regulator of metastatic recurrence and established its relationship in governing telomere maintenance mechanisms (TMMs). Inactivation of SLX4IP suppressed alternative lengthening of telomeres (ALT), coinciding with activation of telomerase. Importantly, TMM selection dramatically influenced metastatic progression and survival of patients with genetically distinct breast cancer subtypes. Notably, pharmacologic and genetic modulation of TMMs elicited telomere-dependent cell death and prevented disease recurrence by disseminated tumor cells. This study illuminates SLX4IP as a potential predictive biomarker for breast cancer progression and metastatic relapse. SLX4IP expression correlates with TMM identity, which also carries prognostic value and informs treatment selection, thereby revealing new inroads into combating metastatic breast cancers.
+  link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7032570/
+  image: assets/img/pubs/2020-slx4ip-breast.webp
+- year: 2020
+  citation: 'Morgan, C., Huang, W., Rudin, S., Taylor, D., Kirby, J., Bonomo, R., and Yu, E. (2020). Cryo-EM structure of the Acinetobacter baumannii 70S ribosome and implications for new antibiotic development. mBio. 2020 Jan-Feb; 11(1): e03117-19. doi: 10.1128/mBio.03117-19. PMID: 31964740.'
+  link: https://pubmed.ncbi.nlm.nih.gov/31964740/
+- year: 2019
+  citation: 'Su, C-C., Kambakam, S., Rajavel, M., Morgan, C.E., Scott, H., Huang, W., Emerson, C., Taylor, D.J, Stewart, P.L., Bonomo, R., & Yu, E.W. (2019). Cryo-EM structure of an Acinetobacter baumanii multidrug efflux pump. mBio. July 2;10(4). PMID: 31266873.'
+  link: https://pubmed.ncbi.nlm.nih.gov/31266873/
+- year: 2019
+  citation: 'Xu, M., Kiselar, J., Whited, T.L., Hernandez-Sanchez, W., & Taylor, D.J. (2019). POT1-TPP1 differentially regulates telomerase via POT1 His266 and as a function of single-stranded telomere DNA length. PNAS. 116(47): 23527-23533. PMID: 31685617'
+  link: https://pubmed.ncbi.nlm.nih.gov/31685617/
+- year: 2019
+  citation: 'Hernandez-Sanchez, W., Huang, W., Plucinsky, B., Garcia-Vazquez, N., Robinson, N.J., Schiemann, W.P., Berdis, A.J., Skordalakes, E., & Taylor, D.J. (2019) A non-natural nucleotide uses a specific pocket to selectively inhibit telomerase activity. PLOS Biology. Epub April 5, 2019. PMID: 30951520.'
+  link: https://pubmed.ncbi.nlm.nih.gov/30951520/
+- year: 2019
+  citation: 'Robinson, N.R., Taylor, D.J., & Schiemann, W.S. (2019) Stem Cells, Immortality, and the Evolution of Metastatic Properties in Breast Cancer. J. Cancer Metastasis Treat. 5:39. 10.20517/2394-4722.2019.15 PMID: 31440584'
+  link: https://pubmed.ncbi.nlm.nih.gov/31440584/
+- year: 2018
+  citation: 'Zeng, X., Hernandez-Sanchez, W., Xu, M., Whited, T.L., Baus, D., Zhang, J., Berdis, A.J., & Taylor, D.J. (2018) Induction of cancer cell death by telomerase-mediated incorporation of a nucleoside analog into telomeric DNA. Cell Reports. 23: 3031-3041. PMID: 29874588.'
+  link: https://pubmed.ncbi.nlm.nih.gov/29874588/
+- year: 2018
+  citation: 'Basak, S., Gicheru, Y., Samanta, A., Molugu, S., Huang, W., de la Fuente, M., Hughes, T., Taylor, D.J., Nieman, M., Moiseenkova-Bell, V., & Chakrapani, S. (2018) Cryo-EM structure of the full-length 5-HT3A receptor in its resting conformation. Nat. Comm. Feb 6;9(1):514. PMID: 29410406.'
+  link: https://pubmed.ncbi.nlm.nih.gov/29410406/
+- year: 2018
+  citation: 'Whited, T.L & Taylor, D.J. (2018) Expanding the chemotherapeutic potential of an established nucleoside analog to selective targeting of telomerase. Molecular and Cellular Oncology. 5(6):e1536844: doi: 10.1080/23723556.2018.1536844. PMID: 30525101'
+  link: https://pubmed.ncbi.nlm.nih.gov/30525101/
+- year: 2018
+  citation: 'Scott, H., Huang, W., Bann, J.G., & Taylor, D.J. (2018) Advances in structure determination by cryo-EM to unravel membrane-spanning pore formation. Protein Science. 27(9):1544-1556. PMID: 30129169'
+  link: https://pubmed.ncbi.nlm.nih.gov/30129169/
+- year: 2017
+  citation: 'Scott, H., Kim, J-K., Yu, C., Huang, L. Qiao, F., & Taylor, D.J. (2017) Spatial organization and molecular interactions of the Schizosaccharomyces pombe Ccq1-Tpz1-Poz1 shelterin complex. J. Mol. Biol. 429:2863-2872. PMID: 28807855.'
+  link: https://pubmed.ncbi.nlm.nih.gov/28807855/
+- year: 2016
+  citation: 'Rajavel, M., Orban, T., Xu, M., Hernandez-Sanchez, W., de la Fuente, M., Palczewski, K., & Taylor, D.J. (2016) Dynamic peptides of human TPP1 fulfill diverse functions in telomere maintenance. Nucl. Acids Res. 44(21): 10467-10479. PMID: 27655633.'
+  link: https://pubmed.ncbi.nlm.nih.gov/27655633/
+- year: 2016
+  citation: 'Mullins, M.R., Rajavel, M., Hernandez-Sanchez, W., de la Fuente, M., Biendarra, S., Harris, M.E., & Taylor, D.J. (2016) POT1-TPP1 binding and unfolding of telomere DNA discriminates between structural polymorphisms. J. Mol. Biol. 428(13):2695-2708. PMID: 27173378.'
+  link: https://pubmed.ncbi.nlm.nih.gov/27173378/
+- year: 2016
+  citation: 'Bhardwaj, A., Sankhala R.S., Olia, A.S., Brooke, D., Casjens, S.R., Taylor, D.J., Prevelige Jr., P.E., & Cingolani, G. (2016) Structural plasticity of the protein plug that traps newly packaged genomes in Podoviridae virions. J. Biol. Chem. 291:215-226. PMID: 26574546.'
+  link: https://pubmed.ncbi.nlm.nih.gov/26574546/
+- year: 2016
+  citation: 'Ying, W., Deng O., Feng, Z., Du, Z., Xiong, X., Lai, J., Yang, X., Wang, H., Xu, M., Taylor, D., Yan, C., Chen, C., Difeo, A., Ma, Z., Zhang, J. (2016) RNF126 promotes homologous recombination via regulation of E2F1-mediated BRCA1 expression. Oncogene. 35: 1363-1372. PMID: 26234677.'
+  link: https://pubmed.ncbi.nlm.nih.gov/26234677/
+- year: 2016
+  citation: 'Hernandez-Sanchez, W., Xu, M., & Taylor, D.J. (2016) Chapter 21: Telomere Maintenance and Genome Stability. In: Kovalchuk, I & Kovalchuk, O (eds.), Genome Stability. From Virus to Human Application, pp. 353-372. Elsevier/Academic Press.'
+- year: Before 2015
+  citation: 'des Georges, A., Hasem, Y., Unbehaun, A., Grassucci, R. A., Taylor, D., Hellen, C. U. T., Pestova, T. V., & Frank, J. (2014) Structure of the mammalian ribosomal pre-termination complex associated with eRF1•eRF3•GDPNP. Nucl. Acids Res., 42:3409-3418. PMID: 24335085.'
+  link: https://pubmed.ncbi.nlm.nih.gov/24335085/
+- year: Before 2015
+  citation: 'Rajavel, M., Mullins, M. R., & Taylor, D.J. (2014) Multiple facets of TPP1 in telomere DNA maintenance. Biochim Biophys Acta Proteins & Proteomics. 1844:1550-1559. PMID: 24780581'
+  link: https://pubmed.ncbi.nlm.nih.gov/24780581/
+- year: Before 2015
+  citation: 'Corriveau, M., Mullins, M.R., Baus, D., Harris, M.E., & Taylor, D.J. (2013) Coordinated Interactions of Multiple POT1-TPP1 Proteins with Telomere DNA. J. Biol. Chem. 288:16361-70. PMID: 23616058'
+  link: https://pubmed.ncbi.nlm.nih.gov/23616058/
+- year: Before 2015
+  citation: 'Tsybovsky, Y., Orban, T., Molday, R.S., Taylor, D., & Palczewski, K. (2013) Molecular organization and ATP-induced conformational changes of ABCA4, the photoreceptor-specific ABC transporter. Structure, 21:854-860. PMID: 23562398'
+  link: https://pubmed.ncbi.nlm.nih.gov/23562398/
+- year: Before 2015
+  citation: 'Lobo, G.P., Amengual, J., Baus, D., Shivdasani, R.A., Taylor, D., & von Lintig, J. (2013) Genetics and diet regulate vitamin A production via the homeobox transcription factor ISX. J. Biol. Chem., 288:9017-9027. PMID: 23393141'
+  link: https://pubmed.ncbi.nlm.nih.gov/23393141/
+- year: Before 2015
+  citation: 'Komar, A.A., Taylor, D.J. and Merrick, W.C. (2013) Eukaryotic Protein Biosynthesis: The Elongation Cycle. In: Lennarz, W.J. and Lane, M.D. (eds.) The Encyclopedia of Biological Chemistry, Vol. 2, pp. 249-255. Waltham, MA: Academic Press.'
+- year: Before 2015
+  citation: 'Taylor, D., Unbehaun, A., Li, W., Das, W., Lei, S., Lao, H., Grassucci, R.A., Pestova, T.V., & Frank, J. (2012) Cryo-EM structure of the mammalian eRF1-eRF3-associated termination complex. Proc Natl Acad Sci U S A, 109:18413-8. PMID: 23091004.'
+  link: https://pubmed.ncbi.nlm.nih.gov/23091004/
+- year: Before 2015
+  citation: Krokowski, D., Gaccioli, F., Majumder, M., Mullins, M.R., Yuan, C.L., Papadopoulou, B., Merrick, W.C., Komar, A.A., Taylor, D., & Hatzoglou, M. (2011) Characterization of hibernating ribosomes in mammalian cells. Cell Cycle. 10(16):1-12. PMID:21768774.
+  link: https://pubmed.ncbi.nlm.nih.gov/21768774/
+- year: Before 2015
+  citation: 'Taylor, D.J., Podell, E.R., Taatjes, D.J., & Cech, T.R. (2011) Multiple POT1-TPP1 proteins coat and compact long telomeric single-stranded DNA. J. Mol. Biol. 410:10-17. PMID: 21596049.'
+  link: https://pubmed.ncbi.nlm.nih.gov/21596049/
+- year: Before 2015
+  citation: 'Speir, J.A., Taylor, D.J., Natarajan, P., Pringle, F.M., Ball, L.A. & Johnson J. E. (2010) Evolution in Action: N and C Termini of Related T=4 Viruses Exchange Roles as Molecular Switches. Structure. 18:700-709. PMID: 20541507.'
+  link: https://pubmed.ncbi.nlm.nih.gov/20541507/
+- year: Before 2015
+  citation: 'Taylor, D. J., Devkota, B., Huang, A., Topf, M., Narayanan, E., Sali, A., Harvey, S., & Frank, J. (2009) Comprehensive Molecular Structure of the Eukaryotic Ribosome. Structure. 17:11591-1604. PMID: 20004163.'
+  link: https://pubmed.ncbi.nlm.nih.gov/20004163/
+  highlights:
+  - 'Spotlight Article with Preview: Dinman, J.D. & Kinzy, T.G. (2009) Expanding the Ribosomal Universe. Structure. 17:1547-8.'
+- year: Before 2015
+  citation: 'Shi, Y., Di Giammartino, D.C., Taylor, D., Sarkeshik, A., Rice, W.J., Yates III, J.R., Frank, J., & Manley, J.L. (2009) Molecular Architecture of the Human pre-mRNA 3’ Processing Complex. Mol. Cell. 33:365-376. PMID: 19217410.'
+  link: https://pubmed.ncbi.nlm.nih.gov/19217410/
+- year: Before 2015
+  citation: 'Grassucci, R. A., Taylor, D., and Frank, J. (2008) Visualization of Macromolecular Complexes using Cryo-Electron Microscopy with FEI Tecnai Transmission Electron Microscopes. Nat Protoc., 3:330-339. PMID: 18274535.'
+  link: https://pubmed.ncbi.nlm.nih.gov/18274535/
+- year: Before 2015
+  citation: 'Grassucci, R. A., Taylor, D. J., and Frank, J. (2007) Preparation of Macromolecular Complexes for Cryo-Electron Microscopy. Nat Protoc., 2:3239-3246. PMID: 18079724.'
+  link: https://pubmed.ncbi.nlm.nih.gov/18079724/
+- year: Before 2015
+  citation: 'Frank, J., Gao, H., Sengupta, J., Gao, N., & Taylor, D.J. (2007) The process of mRNA-tRNA Translocation. Proc Natl Acad Sci U S A, 104:19671-8. PMID: 18003906.'
+  link: https://pubmed.ncbi.nlm.nih.gov/18003906/
+- year: Before 2015
+  citation: 'Taylor, D.J., Nilsson, J., Merrill, A.R., Andersen, G.R., Nissen, P., and Frank, J. (2007) Structures of modified eEF2•80S ribosome complexes reveal the role of GTP hydrolysis in translocation. EMBO J. 26: 2421 – 2431. PMID: 17446867.'
+  link: https://pubmed.ncbi.nlm.nih.gov/17446867/
+- year: Before 2015
+  citation: Taylor, D.J., Frank, J., and Kinzy, T.G., (2007) Eukaryotic ribosome and elongation factors. In Translational Control in Biology and Medicine. (ed. by Mathews, M.B., Sonenberg, N., and Hershey, J.B.) pp. 59 – 85. Cold Spring Harbor Laboratory Press. Cold Spring Harbor, New York.
+- year: Before 2015
+  citation: 'Taylor, D.J., Speir, J.A., Reddy, V., Cingolani, G., Pringle, F.M., Ball, L.A., and Johnson, J.E. (2006) Preliminary x-ray characterization of authentic providence virus and attempts to express its coat protein gene in recombinant baculovirus. Arch Virol, 151: 155-165. PMID: 16211330.'
+  link: https://pubmed.ncbi.nlm.nih.gov/16211330/
+- year: Before 2015
+  citation: 'Taylor, D.J., and Johnson, J.E., (2005) Folding and Particle Assembly are Disrupted by Single Point Mutations near the Auto-catalytic Cleavage Site of Nudaurelia capensis virus Capsid Protein. Protein Sci. 14: 401-408. PMID: 15659373.'
+  link: https://pubmed.ncbi.nlm.nih.gov/15659373/
+- year: Before 2015
+  citation: 'Bothner, B., Taylor, D., Jun, B., Lee, K.K., Siuzdak, G., Schultz, C.P., and Johnson, J.E. (2005) Maturation of a tetravirus capsid alters the dynamic properties and creates a metastable complex. Virol, 334: 17-27. PMID: 15749119.'
+  link: https://pubmed.ncbi.nlm.nih.gov/15749119/
+- year: Before 2015
+  citation: 'Lee, K.K., Tang, J., Taylor, D., Bothner, B., Johnson, J.E. (2004) Small compounds targeted to subunit interfaces arrest maturation in a nonenveloped, icosahedral animal virus. J. Virol., 13: 7208-7216. PMID: 15194797.'
+  link: https://pubmed.ncbi.nlm.nih.gov/15194797/
+- year: Before 2015
+  citation: 'Taylor, D.J., Wang, Q., Bothner, B., Natarajan, P., Finn, M.G., Johnson, J.E. (2003) Correlation of chemical reactivity of Nudaurelia capensis omega virus with a pH-induced conformational change. Chem. Comm., 22: 2770-2771. PMID: 14651097.'
+  link: https://pubmed.ncbi.nlm.nih.gov/14651097/
+- year: Before 2015
+  citation: 'Taylor, D.J., Krishna, N.K., Canady, M.A., Schneemann, A., and Johnson, J.E. (2002) Large Scale, pH-Dependent, Quaternary Structure Changes in an RNA Virus Capsid are Reversible in the Absence of Subunit Autoproteolysis. J. Virol., 76: 9972-9980. PMID: 12208973.'
+  link: https://pubmed.ncbi.nlm.nih.gov/12208973/

@@ -1,0 +1,89 @@
+# Lab members. status: current or alumni. To move someone to alumni, cut their entry and paste it under an alumni group.
+# Photos go in assets/img/people/ (square-ish, ~600px wide).
+
+- status: current
+  title: Principal Investigator & Faculty
+  members:
+  - name: Derek J. Taylor, Ph.D.
+    role: Professor (Principal Investigator)
+    photo: assets/img/people/derek-taylor.webp
+    bio: Dr. Taylor received his BS degree from Fort Lewis College in Durango CO and his PhD from the University of California, San Diego. Dr. Taylor was an HHMI-sponsored postdoctoral fellow in the lab of Nobel Laureate Dr. Joachim Frank, where he learned cryo-electron microscopy (cryo-EM) and its application in structure determination of biological complexes. Dr. Taylor then spent a year working with Dr. Tom Cech (another Nobel Laureate) and his group where he began to investigate the structure and function of telomere complexes. Dr. Taylor began his independent position in 2009 when he joined the Department of Pharmacology at Case Western Reserve University. Dr. Taylor has been recognized with a Research Scholar Award from the American Cancer Society and a prestigious Director’s New Innovator Award from the NIH.
+  - name: Wei Huang, Ph.D.
+    role: Assistant Professor
+    photo: assets/img/people/wei-huang.webp
+    bio: Dr. Huang received his BE degree from Xi’an Jiaotong University in China and his PhD in Biochemistry from LSU, where he studied RNA biochemistry and biophysics using nuclear magnetic resonance spectroscopy and molecular dynamics simulations. His graduate research focused on the structure and functional dynamics of the SAM-I riboswitch and pioneered the integration of experimental data with computational simulations. Following his PhD, Wei investigated the structure and dynamics of the estrogen receptor, applying small-angle X-ray scattering, hydroxyl radical protein footprinting, and protein–protein association simulations. He then joined the Department of Pharmacology at Case Western Reserve University as a postdoctoral researcher in Dr. Derek Taylor’s lab, where he expanded his expertise to cryo-electron microscopy (cryo-EM). His current research focuses on the structure and function of macromolecular assemblies that play central roles in biology, with the broader goal of identifying potential targets for therapeutic development.
+- status: current
+  title: Graduate Students & Research Staff
+  members:
+  - name: Alexander Day
+    role: Ph.D.
+    photo: assets/img/people/alexander-day.webp
+    bio: Alex received his bachelor’s degree from The College of Wooster with majors in both Biochemistry and German language. During college his research focused on the duplicate gene family Calcineurin in Paramecium and the mechanisms by which the organism maintained and separately evolved these duplicate genes to have similar but distinct roles in the cell. Following graduation, he worked as a research assistant at Case Western Reserve University studying the rare genetic disease, Cystic Fibrosis (CF) in the lab of Rebecca Darrah. Here he focused on studying the molecular genetic mechanisms of a single nucleotide mutation in the Angiotensin receptor type II that was identified to result in a significantly better phenotypic outlook for CF patients harboring the mutation. During this experience he gained an appreciation for the molecular therapeutic methods utilized to interrogate the mechanisms of action of this receptor in the context of the disease, which lead him to apply to the molecular therapeutics training program (MTTP) at CWRU in 2019. In Dr. Taylor’s lab, Alex’s research focuses on elucidating the mechanisms of the trimeric protein PP2A, and more specifically the role of one of the scaffolding isoforms known as Abeta. He is interested in uncovering how this isoform affects the overall structure and function of PP2A in comparison to the Aalpha isoform and the role the isoform plays in the context of diseases such as cancer.
+  - name: Brendan Sheehan
+    role: Graduate Student
+    photo: assets/img/people/brendan-sheehan.webp
+    bio: Brendan graduated from Oberlin College in 2018 with a double major in Biochemistry and English, participating in research under the analytical chemist Robert Thompson, and chemical biologist William Parsons. Subsequently, he spent three years in the Lab of Luigi Puglielli at the University of Wisconsin-Madison investigating the role of autophagy in neurodegenerative disease before matriculating at CWRU in the Medical Scientist Training Program in July of 2021. As a member of the Taylor lab, Brendan has begun investigating the assembly of the Shelterin Complex and the role of Telomerase in cancer.
+  - name: Shouqing Cui
+    role: Graduate Student
+    photo: assets/img/people/shouqing-cui.webp
+    bio: Shouqing received her bachelor’s degree from Shanghai University with a major in Bioengineering. During college, her research focused on biofilm formation and developing molecules to target it. Following graduation, she worked as a research assistant at a drug company and her job duty was to develop analysis methods. During this experience, she gained an appreciation for establishing methods utilized to help drug development, which led her to apply to the biochemistry master’s program at CWRU in 2022. In Dr. Taylor’s lab, Shouqing’s research focuses on investigating the mechanisms of regulatory specificity of PP2A, seeking potential cancer therapies. In 2023, she applied to the BSTP program and continued her research as a Ph.D. student.
+  - name: Samantha Wildman
+    role: Undergraduate Alum & Research Assistant
+    photo: assets/img/people/samantha-wildman.webp
+    bio: Samantha recently graduated from Case Western Reserve University (CWRU) in January 2026 with a B.S. in Biochemistry, concentration in Cancer Biology, and a minor in Chemistry. During undergrad, Samantha served as an Orientation Leader and Spartan Ambassador for multiple years. She was one of the founding members of Women in Biochemistry Society and served as Risk Manager on their Executive Board. As a member of the Taylor Lab since 2024 and a participant in the Summer Undergraduate Research Program (SURP) in Pharmacology, her undergraduate capstone project focused on how the structure and function of PP2A is affected by Aalpha subunit mutations and the role of these mutations in cancer. At present, she works as a Research Assistant in the Taylor Lab with the goal of expanding her capstone research and better understanding how post-translational modifications affect cellular metabolism and cancer progression. Outside of lab, Samantha has continued to be involved around the campus community through volunteering at University Hospitals Rainbow Babies and Children’s Hospital and the community garden Garden@Case adjacent to CWRU’s campus.
+- status: alumni
+  title: Postdoctoral Scholars
+  members:
+  - name: Eric Mosher
+    role: Ph.D.
+    photo: assets/img/people/eric-mosher.webp
+    bio: Eric received his bachelor’s degree from Case Western Reserve University, where he majored in Biochemistry. As an undergraduate student, he was a member of the lab of Dr. Emily Pentzer (now at Texas A&M) in CWRU’s Department of Chemistry. There, Eric synthesized and characterized graphene oxide and polymer nanomaterials. After his undergraduate studies, Eric pursued a PhD in Pharmacology and Molecular Sciences at Johns Hopkins University. In the lab of Dr. Namandjé Bumpus, Eric studied the metabolism of the anti-HIV NRTI Tenofovir and the role that muscle-type creatine kinase plays in interindividual differences in tenofovir activation. Throughout his PhD, he learned various mass spectrometry methods. During his thesis work, Eric developed an interest in understanding how proteins work at a molecular level, resulting in a desire to learn structural biology. Upon the completion of his PhD, Eric joined the Taylor Lab for his postdoctoral training to learn cryo-EM. Here, he studies the mechanism by which human papillomavirus causes cancer by characterizing the interactions between HPV proteins and human proteins.
+  - name: Sagar Regmi
+    role: Ph.D.
+    photo: assets/img/people/sagar-regmi.webp
+    bio: Sagar holds an undergraduate degree and M.Sc. degree from University of Pune, Pune, India. After receiving his M.Sc. degree, he worked on a summer project that focused to define the structure and function of a G-quadruplex in the long terminal repeat of the proviral HIV-1 genome in Nanyang Technological University (NTU), Singapore. Then, he did his Ph.D. in Chemical and Biomedical Engineering under the supervision of Assoc. Prof. Sierin Lim and Prof. Kathy Qian Luo from School of Chemical and Biomedical Engineering, NTU, Singapore. As a graduate student, he focused on understanding the effects of shear stress and ROS-generating drugs on circulating tumor cells. In this project, he uncovered the role of exercise induced shear effect on circulating tumor cells. In another study, he investigated the effect of known chemotherapy drugs for their effects on circulating tumor cells. After his Ph.D. from NTU, he worked as a Research Staff at the Faculty of Health Science, University of Macau, China where he focussed on the applications of microfluidics that could advance the field of oncology. He is currently working as a Postdoctoral Scholar at Prof. Derek J. Taylor Laboratory at Department of Pharmacology, School of Medicine, Case Western Reserve University, Cleveland, Ohio, USA. He is working on the enzyme 15-prostaglandin dehydrogenase (15-PGDH) with a strategy to trap prostaglandin substrates and define the structure of 15-PGDH with diverse prostaglandin substrates (PGD2 and PGE2) using cryogenic electron microscopy and identify the molecular interactions that govern binding and specificity of the enzyme. Furthermore, he is focusing to identify the role of the C-terminal tail in the regulation of the activity of 15-PGDH with prostaglandin substrate.
+- status: alumni
+  title: Graduate Students
+  members:
+  - name: Jasmine Encarnacion
+    role: PREP Scholar
+    photo: assets/img/people/jasmine-encarnacion.webp
+  - name: Daniel Leonard
+    role: MD-Ph.D. Student
+    photo: assets/img/people/daniel-leonard.webp
+    bio: Daniel received his bachelor’s degree from the State University of New York at Albany. During his time there he spent two years with Dr. Melinda Larsen, interrogating the development of the human salivary gland. This initial exposure to research prompted Daniel to continue his research training at the National Institutes of Health (NIH), under the guidance of Dr. Thomas Bugge, investigating the physiologic and pathologic recycling mechanisms of extracellular matrix proteins such as collagen. After two years at NIH, Daniel began his medical training at the Cleveland Clinic Lerner College of Medicine (CCLCM), a program that integrates numerous opportunities for independent research. These independent research blocks provided through CCLCM and his Medical Scientist Fellowship awarded by the Howard Hughes Medical Institute reminded Daniel of his passion for research and so he joined the Case Western Reserve University Medical Scientist Training Program (MSTP) to pursue a Ph.D. in addition to the MD from CCLCM.
+  - name: Tawna Mangosh, Pharm. D.
+    role: Graduate Student
+    photo: assets/img/people/tawna-mangosh.webp
+    bio: Tawna received her Doctor of Pharmacy degree from the University of Findlay College of Pharmacy. During this time, she spent six years in the laboratory of Dr. Ryan Schneider in the College of Pharmacy focusing on cancer pharmacology-based research. During Tawna’s undergraduate pharmacy research experience, she made significant contributions to studies aimed at identifying the mechanism by which non-steroidal anti-inflammatory agents exert their anti-cancer effects. In addition to continuing her undergraduate research, Tawna’s pharmacy graduate research involvement included two separate drug screening and validation studies with a library of compounds designed as either sigma-2 receptor agonists or autophagy inhibitors with the goal of eliciting cancer cell cytotoxicity. In addition to research-based cancer pharmacology training, Tawna received extensive training in pathophysiology, pharmacology, medicinal chemistry, and pharmacotherapy of human diseases while earning her Doctor of Pharmacy.
+  - name: Wilnelly Hernandez-Sanchez, Ph.D.
+    role: Graduate Student
+    photo: assets/img/people/wilnelly-hernandez-sanchez.webp
+    bio: Wilnelly received her bachelor’s degree from the University of Puerto Rico, Mayaguez, in Industrial Biotechnology. As an undergraduate, she spent two years doing research with Dr. Elsie Pares-Matos, studying gene regulation and analyzing the promoter regions of Nuclear Factor for Interleukin 6 (NF-IL6). After completion of her bachelor degree, she was accepted in the Postbaccalaureate Research Education Program (PREP) at Case Western Reserve University School of Medicine in June 2012. As part of the PREP program, she worked full-time in a research lab under Dr. Mark Jackson supervision in the Cancer Biology department at CWRU. Her project focused on studying protein interactions between two newly discovered oncogenes FAM83B and FAM83A. Upon acceptance into graduate school at Case Western, she joined the lab of Dr. Derek Taylor, in the Pharmacology Department. During her graduate career, Wilnelly had the opportunity to study a novel telomerase inhibitor and the kinetics consequences of nucleotides concentration over telomerase catalytic activity.
+  - name: Mengyuan Xu, Ph.D.
+    role: Graduate Student
+    photo: assets/img/people/mengyuan-xu.webp
+    bio: Mengyuan received her bachelor’s degree from Nankai University in China, majoring in biological science and minoring in mathematics and science. After college, she continued to pursue her master’s degree in biochemical and molecular biology at Nankai University. Mengyuan’s research experience as an undergraduate shaped her future research endeavors as she chose to pursue structural biology as her primary research interest. Due to the fact that structural biology requires a solid mathematical background, the knowledge, and most importantly, the spirit of mathematics would always benefit her in her future research undertakings. In the pursuit of her master’s degree, Mengyuan solved the crystal structure of the N-terminal fragment of FILIA, which revealed a unique N-terminal extension beyond the canonical KH region that is well known for its RNA binding ability. This experience generated her interest in nucleic acid binding proteins and their cellular consequences. Therefore, she decided to continue her research career as a PhD student in the Department of Pharmacology at Case Western Reserve University School of Medicine.
+  - name: Nathaniel Robinson
+    role: MD-Ph.D. Student
+    photo: assets/img/people/nathaniel-robinson.webp
+    bio: Nathaniel received his B.S. in molecular genetics and mathematics from The Ohio State University in 2013. While at OSU, his research focused on the mechanisms of translational regulation of gene expression in bacteria and developing informatic methods to identify new regulatory pathways. After graduating, he worked as a research assistant at Nationwide Children’s Hospital studying the molecular genetic bases of inherited epilepsy before joining the Medical Scientist Training Program at CWRU in 2014.
+- status: alumni
+  title: Undergraduate Students
+  members:
+  - name: Jenish Venancius
+    role: Undergraduate Student
+    photo: assets/img/people/jenish-venancius.webp
+    bio: Jenish is currently pursuing a dual-degree as an undergraduate student in Biology and a Master of Public Health (MPH). Additionally, he is minoring in Spanish and Chemistry and is active in research throughout the lab and on-campus leadership.
+  - name: Anjali Raju
+    role: Undergraduate Student
+    photo: assets/img/people/anjali-raju.webp
+    bio: Anjali is a Biochemistry major at CWRU in the Class of 2024. She is involved in the Discussions Undergraduate Journal and is the COmmunity Outreach Director for the PERIOD chapter at CWRU. In the Taylor Lab, she is working on refining protein purification methods for PP2A and its substrates with the ultimate goal of solving a structure of PP2A and a substrate.
+  - name: Nikhil Vasireddi
+    role: Undergraduate Student
+    photo: assets/img/people/nikhil-vasireddi.webp
+    bio: Nikhil is an undergraduate student researcher majoring in Systems Biology at Case Western Reserve University and is currently studying the oncoprotein c-Myc and its life cycle in recombinant protein systems in the lab. Specifically he focuses on determining how its modifications affect its interaction with the tumor suppressor protein phosphatase 2A (PP2A) and ultimately how these modifications affect cellular signaling and cancer progression.
+  - name: Jackie Spieles
+    role: Undergraduate Student
+    photo: assets/img/people/jackie-spieles.webp
+    bio: Jackie is a Class of 2022 biology major at the College of Wooster and plans to pursue a PhD in the biomedical sciences. In the Taylor lab, she has worked to troubleshoot and optimize protein purification techniques for PP2A subunits and substrates. At Wooster, she is a member of the WOODs Outdoors Club and works as a teaching assistant and tutor for chemistry and biology courses.

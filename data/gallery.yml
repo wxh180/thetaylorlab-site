@@ -1,0 +1,22 @@
+# Gallery photos. category must be one of the categories listed below.
+# Photos go in assets/img/gallery/ (about 1024px on the long side).
+categories:
+  - Lab Outings
+  - Computer Building
+  - Lab Photos
+  - High School Students
+photos:
+  - {file: taylorgpu3.webp, caption: "TaylorGPU3", category: Computer Building}
+  - {file: gpu-alex-aya.webp, caption: "Alex + Aya - GPU Watercooling", category: Computer Building}
+  - {file: gpu-alex.webp, caption: "Alex - GPU Watercooling", category: Computer Building}
+  - {file: gpu-aya.webp, caption: "Aya - GPU Watercooling", category: Computer Building}
+  - {file: lunch-siam-cafe.webp, caption: "Lab Lunch at Siam Cafe", category: Lab Outings}
+  - {file: lab-photo-2020.webp, caption: "2020 Lab Photo at RT300", category: Lab Photos}
+  - {file: lunch-tommys.webp, caption: "Lab Lunch at Tommy's", category: Lab Outings}
+  - {file: lake-lucerne-2017.webp, caption: "2017 Summer Fun at Lake Lucerne", category: Lab Outings}
+  - {file: holiday-lunch-2016.webp, caption: "2016 Holiday Lunch at Dynomite Burgers & Sushi", category: Lab Outings}
+  - {file: bowling-2016.webp, caption: "2016 Bowling at The Corner Alley", category: Lab Outings}
+  - {file: neosef-lynette.webp, caption: "Lynette Poster at NEOSEF", category: High School Students}
+  - {file: neosef-delicia.webp, caption: "Delicia Poster at NEOSEF", category: High School Students}
+  - {file: neosef-chloe.webp, caption: "Chloe Poster at NEOSEF", category: High School Students}
+  - {file: neosef-finalists.webp, caption: "NEOSEF Finalists - Delicia and Chloe", category: High School Students}

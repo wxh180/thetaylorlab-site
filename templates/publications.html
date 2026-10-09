@@ -1,0 +1,63 @@
+{% extends "base.html" %}
+{% from "macros.html" import img_src %}
+{% block description %}Publications from the Taylor Lab: structural biology, cryo-EM, PP2A, telomeres and drug design.{% endblock %}
+{% block content %}
+<section class="page-hero">
+  <div class="wrap">
+    <p class="eyebrow">Publications</p>
+    <h1>Publications</h1>
+    <div class="pub-tools">
+      <label class="search">
+        <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" d="M11 4a7 7 0 1 1 0 14 7 7 0 0 1 0-14zm10 17-5.2-5.2"/></svg>
+        <input id="pub-search" type="search" placeholder="Search {{ pub_count }} publications by title, author or journal" aria-label="Search publications">
+      </label>
+      <nav class="year-chips" aria-label="Jump to year">
+        {% for y in years %}<a href="#y{{ y|slug }}">{{ y }}</a>{% endfor %}
+      </nav>
+    </div>
+    <p id="pub-empty" class="muted" hidden>No publications match your search.</p>
+  </div>
+</section>
+
+<section class="section pubs">
+  <div class="wrap">
+    {% for y in years %}
+    <div class="year-block" id="y{{ y|slug }}">
+      <h2 class="year-h">{{ y }}</h2>
+      {% for p in by_year[y] %}
+      {% if p.title %}
+      <article class="pub" data-search="{{ (p.title ~ ' ' ~ p.citation ~ ' ' ~ (p.abstract or ''))|lower }}">
+        {% if p.image %}
+        <button class="pub-fig zoom" data-full="{{ img_src(p.image, root) }}" data-caption="{{ p.title }}">
+          <img src="{{ img_src(p.image, root) }}" alt="Figure from: {{ p.title }}" loading="lazy">
+        </button>
+        {% endif %}
+        <div class="pub-body">
+          <h3>{{ p.title }}</h3>
+          <p class="cite">{{ p.citation|bold_lab }}</p>
+          <div class="pub-actions">
+            {% if p.link %}<a class="btn btn-small" href="{{ p.link }}" target="_blank" rel="noopener">{{ 'PMC' if 'pmc' in p.link else 'PubMed' }}</a>{% endif %}
+            {% if p.abstract %}
+            <details class="abstract">
+              <summary>Abstract</summary>
+              {% for para in p.abstract|paragraphs %}<p>{{ para }}</p>{% endfor %}
+            </details>
+            {% endif %}
+          </div>
+          {% if p.highlights %}
+          <ul class="highlights">{% for h in p.highlights %}<li>{{ h }}</li>{% endfor %}</ul>
+          {% endif %}
+        </div>
+      </article>
+      {% else %}
+      <article class="pub pub-line" data-search="{{ p.citation|lower }}">
+        <p class="cite">{{ p.citation|bold_lab }}{% if p.link %} <a href="{{ p.link }}" target="_blank" rel="noopener" class="pm-link">PubMed</a>{% endif %}</p>
+        {% if p.highlights %}<ul class="highlights">{% for h in p.highlights %}<li>{{ h }}</li>{% endfor %}</ul>{% endif %}
+      </article>
+      {% endif %}
+      {% endfor %}
+    </div>
+    {% endfor %}
+  </div>
+</section>
+{% endblock %}

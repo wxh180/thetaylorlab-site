@@ -1,0 +1,21 @@
+# Site-wide settings
+title: The Taylor Lab
+tagline: From molecular structure to new therapeutics
+url: https://www.thetaylorlab.com
+department: Department of Pharmacology, Case Western Reserve University School of Medicine
+twitter: https://twitter.com/DTaylorLab
+twitter_handle: "@DTaylorLab"
+members_app: https://app.thetaylorlab.com
+address:
+  - Derek J. Taylor
+  - 2109 Adelbert Rd., Wood building room 333
+  - Department of Pharmacology
+  - Case Western Reserve University
+  - Cleveland, OH 44106
+nav:
+  - {label: Home, path: ""}
+  - {label: Research, path: research/}
+  - {label: People, path: the-lab/}
+  - {label: Publications, path: publications/}
+  - {label: Gallery, path: lab-events/}
+  - {label: Contact Us, path: contact-us/}

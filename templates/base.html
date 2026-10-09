@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page_title %}{{ page_title }} · {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{% block description %}{{ site.title }}: {{ site.tagline }}. {{ site.department }}.{% endblock %}">
+  <meta property="og:title" content="{% if page_title %}{{ page_title }} · {% endif %}{{ site.title }}">
+  <meta property="og:description" content="{{ site.tagline }}">
+  <meta property="og:image" content="{{ site.url }}/assets/img/brand/team-2026.webp">
+  <link rel="icon" href="{{ root }}assets/img/brand/favicon.png">
+  <link rel="apple-touch-icon" href="{{ root }}assets/img/brand/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600;8..60,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ root }}assets/css/site.css">
+</head>
+<body class="page-{{ (current or 'notfound')|replace('/','') or 'home' }}">
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="{{ root or './' }}" aria-label="{{ site.title }} home">
+        <img src="{{ root }}assets/img/brand/logo.png" alt="Taylor Lab logo" width="88" height="60">
+        <span class="brand-text"><span class="brand-name">The Taylor Lab</span><span class="brand-sub">Pharmacology · Case Western Reserve University</span></span>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav"><span></span><span></span><span></span><span class="sr">Menu</span></button>
+      <nav id="site-nav" class="site-nav" aria-label="Main">
+        {% for item in site.nav %}
+        <a href="{{ root }}{{ item.path }}"{% if current == item.path %} aria-current="page"{% endif %}>{{ item.label }}</a>
+        {% endfor %}
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+{% block content %}{% endblock %}
+  </main>
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div>
+        <div class="footer-name">The Taylor Lab</div>
+        <p>{{ site.tagline }}</p>
+        <p class="muted">{{ site.department }}</p>
+      </div>
+      <div>
+        <div class="footer-h">Visit or ship to</div>
+        <address>{% for line in site.address %}{{ line }}<br>{% endfor %}</address>
+      </div>
+      <div>
+        <div class="footer-h">Explore</div>
+        <ul class="footer-links">
+          {% for item in site.nav[1:] %}<li><a href="{{ root }}{{ item.path }}">{{ item.label }}</a></li>{% endfor %}
+          <li><a href="{{ site.twitter }}" rel="noopener" target="_blank">Follow {{ site.twitter_handle }} on X</a></li>
+          <li><a href="{{ site.members_app }}">Lab members: inventory &amp; orders</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="wrap footer-bottom">All rights reserved © {{ year_now }} Taylor Lab</div>
+  </footer>
+  <script src="{{ root }}assets/js/site.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block description %}Photos from Taylor Lab outings, computer building, lab photos and high school students.{% endblock %}
+{% block content %}
+<section class="page-hero">
+  <div class="wrap">
+    <p class="eyebrow">Gallery</p>
+    <h1>Life in the lab</h1>
+    <div class="filters" role="group" aria-label="Filter photos">
+      <button class="chip" aria-pressed="true" data-filter="all">All</button>
+      {% for c in gallery.categories %}<button class="chip" aria-pressed="false" data-filter="{{ c|slug }}">{{ c }}</button>{% endfor %}
+    </div>
+  </div>
+</section>
+<section class="section">
+  <div class="wrap">
+    <div class="masonry">
+      {% for ph in gallery.photos %}
+      <figure class="shot" data-cat="{{ ph.category|slug }}">
+        <button class="zoom" data-full="{{ root }}assets/img/gallery/{{ ph.file }}" data-caption="{{ ph.caption }}">
+          <img src="{{ root }}assets/img/gallery/{{ ph.file }}" alt="{{ ph.caption }}" loading="lazy">
+        </button>
+        <figcaption>{{ ph.caption }}<span>{{ ph.category }}</span></figcaption>
+      </figure>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endblock %}

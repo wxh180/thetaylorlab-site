@@ -1,0 +1,85 @@
+{% extends "base.html" %}
+{% from "macros.html" import img_src %}
+{% block content %}
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <p class="eyebrow">Department of Pharmacology · Case Western Reserve University</p>
+      <h1>Welcome to the Taylor Lab</h1>
+      <p class="hero-tag">{{ site.tagline }}</p>
+      <p class="hero-lead">We integrate molecular structure with functional phenotypes to understand fundamental biological processes, then use that insight to design new therapeutic strategies.</p>
+      <div class="btn-row">
+        <a class="btn btn-primary" href="{{ root }}research/">Explore our research</a>
+        <a class="btn btn-ghost" href="{{ root }}publications/">Publications</a>
+      </div>
+    </div>
+    <figure class="hero-photo">
+      <img src="{{ root }}assets/img/brand/team-2026.webp" alt="Taylor Lab members on a rooftop on the Case Western Reserve University campus" width="458" height="416">
+    </figure>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>What we study</h2>
+      <a class="link-arrow" href="{{ root }}research/">All research</a>
+    </div>
+    <div class="cards-3">
+      <a class="focus-card" href="{{ root }}research/#pp2a">
+        <span class="focus-k">01</span>
+        <h3>Protein Phosphatase 2A</h3>
+        <p>How biogenesis, assembly and post-translational modifications shape the substrate specificity of the PP2A family of phosphatases.</p>
+      </a>
+      <a class="focus-card" href="{{ root }}research/#telomeres">
+        <span class="focus-k">02</span>
+        <h3>Telomeres and Telomerase</h3>
+        <p>How telomere end-binding proteins protect chromosome ends from the DNA damage response and regulate telomerase.</p>
+      </a>
+      <a class="focus-card" href="{{ root }}research/#drug-design">
+        <span class="focus-k">03</span>
+        <h3>Drug Design</h3>
+        <p>Structure-guided design of telomerase-targeting nucleotide analogs, small molecule activators of PP2A (SMAPs) and 15-PGDH inhibitors.</p>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="section section-tint">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Recent publications</h2>
+      <a class="link-arrow" href="{{ root }}publications/">All {{ pub_count }} publications</a>
+    </div>
+    <div class="cards-3">
+      {% for p in latest %}
+      <article class="pub-card">
+        {% if p.image %}<div class="pub-card-img"><img src="{{ img_src(p.image, root) }}" alt="" loading="lazy"></div>{% endif %}
+        <div class="pub-card-body">
+          <span class="pill">{{ p.year }}</span>
+          <h3>{% if p.link %}<a href="{{ p.link }}" target="_blank" rel="noopener">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}</h3>
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap split">
+    <div class="callout">
+      <h2>Join or collaborate</h2>
+      <p>We are located in the Wood building on the Case Western Reserve University campus in Cleveland, Ohio.</p>
+      <a class="btn btn-primary" href="{{ root }}contact-us/">Contact us</a>
+    </div>
+    <div class="callout callout-x">
+      <h2>Follow the lab</h2>
+      <p>News, papers and lab updates from {{ site.twitter_handle }}.</p>
+      <a class="btn btn-dark" href="{{ site.twitter }}" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path fill="currentColor" d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+        Follow {{ site.twitter_handle }}
+      </a>
+    </div>
+  </div>
+</section>
+{% endblock %}

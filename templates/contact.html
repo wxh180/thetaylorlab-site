@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block description %}Contact the Taylor Lab, Department of Pharmacology, Case Western Reserve University, Cleveland, OH.{% endblock %}
+{% block content %}
+<section class="page-hero">
+  <div class="wrap">
+    <p class="eyebrow">Contact</p>
+    <h1>Contact Us</h1>
+  </div>
+</section>
+<section class="section">
+  <div class="wrap contact-grid">
+    <div class="contact-card">
+      <h2>Shipping Address</h2>
+      <address>{% for line in site.address %}{% if loop.first %}<strong>{{ line }}</strong>{% else %}{{ line }}{% endif %}<br>{% endfor %}</address>
+      <div class="btn-row">
+        <a class="btn btn-primary" href="https://www.google.com/maps/search/?api=1&query=2109+Adelbert+Rd,+Cleveland,+OH+44106" target="_blank" rel="noopener">Open in Maps</a>
+        <a class="btn btn-ghost" href="{{ site.twitter }}" target="_blank" rel="noopener">{{ site.twitter_handle }} on X</a>
+      </div>
+    </div>
+    <div class="map">
+      <iframe title="Map of 2109 Adelbert Rd, Cleveland, OH" src="https://www.google.com/maps?q=2109+Adelbert+Rd,+Cleveland,+OH+44106&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+</section>
+{% endblock %}

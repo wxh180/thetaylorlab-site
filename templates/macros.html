@@ -1,0 +1,1 @@
+{% macro img_src(path, root) -%}{% if path.startswith('http') %}{{ path }}{% else %}{{ root }}{{ path }}{% endif %}{%- endmacro %}
