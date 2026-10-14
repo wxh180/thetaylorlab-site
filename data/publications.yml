@@ -1,8 +1,16 @@
 # Taylor Lab publications — newest first.
 # To add a paper: copy an entry, paste it at the top of its year, and edit.
-# Fields: year, title, citation, abstract (optional), link (PubMed URL), image (optional), highlights (optional list)
+# Fields: year, title, citation, abstract (optional), link (PubMed URL, or the DOI/journal URL until PubMed lists it), image (optional), highlights (optional list)
 # Entries without a title are shown as a single citation line.
 
+- year: 2026
+  title: Restoration of PP2A AαB56αC trimer formation by RPT04402 molecular glue in high-grade uterine cancer
+  citation: Peris, I., Haanen III, T.J., Day, A., Hu, J., Callahan, C., Hodges-Onishi, G., Zawacki, K.P., Tran, B., Harold, A., Dowdican, A., Nino, C.A., Huang, W., Leonard, D., Hinderman, M., Barrie, K., Raines, B., Sangodkar, J., Boock, S., Shankar, V., Giambi, M., Romero-Murillo, S., Arbitman, L., Shenolikar, S., Trainor, G., Cachoux, F., Rabal, O., Gherbovet, O., Fourmois, L., Brautigan, D.L., DiFeo, A.V., Taylor, D.J., O’Connor, C.M. and Narla, G., 2026. Science Translational Medicine, 18(871), p.eady4852.
+  abstract: The incidence and mortality of high-grade endometrial cancers are increasing, and heterozygous hotspot mutations in PPP2R1A are drivers of the most aggressive forms of uterine cancer. PPP2R1A encodes the Aα scaffolding subunit of the heterotrimeric phosphatase PP2A. These recurrent mutations, specifically at the Pro179 and Ser256 residues, disrupt the binding of tumor-suppressive substrate-directing B56 and B55 subunits to the PP2A scaffolding subunit while maintaining binding to other regulatory subunits. Here, we identified a series of molecular glues that correct PP2A trimer formation in the context of the P179R (Pro179→Arg) and S256F (Ser256→Phe) mutants. A small-molecule library was designed to fit into the pocket at the binding interface of the Aα/B56α/C heterotrimer. The lead molecule, RPT04402, promoted B56α heterotrimerization to the AαP179R and AαS256F mutant scaffolds. In mice, RPT04402 treatment drove tumor regressions and extended median survival in multiple independent mutant cell lines and patient-derived xenografts, proving a robust single-agent activity. This activity was abrogated upon knockout of B56α. Combined, these data demonstrate that PP2A molecular glues are a promising first-in-class therapy that might benefit patients with PPP2R1A mutant uterine cancer by targeting a driver of this aggressive disease.
+  link: https://www.science.org/doi/10.1126/scitranslmed.ady4852
+  image: assets/img/pubs/2026-rpt04402-stm.webp
+  highlights:
+    - Featured on the Science Translational Medicine homepage for the 14 October 2026 issue.
 - year: 2026
   title: Multivalent nanobodies for potent and broad neutralization of Staphylococcus aureus toxins
   citation: Kim, Y.J.J., Walton, N.R., Huang, W., Lee, M., Xiang, Y., Sang, Z., Sussman, C., Moore, S.K.L., Taylor, D.J., Chen, K., Hook, J.L., McCormick, J.K. and Shi, Y., 2026. Nature Communications, 17(1), p.4456.

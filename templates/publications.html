@@ -37,7 +37,7 @@
           <h3>{{ p.title }}</h3>
           <p class="cite">{{ p.citation|bold_lab }}</p>
           <div class="pub-actions">
-            {% if p.link %}<a class="btn btn-small" href="{{ p.link }}" target="_blank" rel="noopener">{{ 'PMC' if 'pmc' in p.link else 'PubMed' }}</a>{% endif %}
+            {% if p.link %}<a class="btn btn-small" href="{{ p.link }}" target="_blank" rel="noopener">{{ 'PMC' if 'pmc' in p.link else ('PubMed' if 'pubmed' in p.link else 'Article') }}</a>{% endif %}
             {% if p.abstract %}
             <details class="abstract">
               <summary>Abstract</summary>
