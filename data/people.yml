@@ -33,6 +33,20 @@
     role: Undergraduate Alum & Research Assistant
     photo: assets/img/people/samantha-wildman.webp
     bio: Samantha recently graduated from Case Western Reserve University (CWRU) in January 2026 with a B.S. in Biochemistry, concentration in Cancer Biology, and a minor in Chemistry. During undergrad, Samantha served as an Orientation Leader and Spartan Ambassador for multiple years. She was one of the founding members of Women in Biochemistry Society and served as Risk Manager on their Executive Board. As a member of the Taylor Lab since 2024 and a participant in the Summer Undergraduate Research Program (SURP) in Pharmacology, her undergraduate capstone project focused on how the structure and function of PP2A is affected by Aalpha subunit mutations and the role of these mutations in cancer. At present, she works as a Research Assistant in the Taylor Lab with the goal of expanding her capstone research and better understanding how post-translational modifications affect cellular metabolism and cancer progression. Outside of lab, Samantha has continued to be involved around the campus community through volunteering at University Hospitals Rainbow Babies and Children’s Hospital and the community garden Garden@Case adjacent to CWRU’s campus.
+- status: current
+  title: Undergraduate Students
+  members:
+  - name: Brinda Jayasimha
+    role: Undergraduate Student
+    photo: assets/img/people/brinda-jayasimha.webp
+    bio: |-
+      Brinda is an undergraduate at Case Western Reserve University pursuing a B.S. in Biochemistry with a concentration in Cancer Biology, along with minors in English and Chemistry. Since joining the Taylor Lab in 2024, she has studied protein phosphatase regulation, the shelterin complex and telomerase function. Her current research examines the kinetics and fidelity of telomerase activity and what they mean for telomere maintenance and cancer biology.
+
+      Outside the lab, Brinda holds leadership positions with Project Sunshine, Adopt-A-Grandparent and Solstice A Cappella. She is an undergraduate teaching assistant for Organic Chemistry I and II, and volunteers at University Hospitals Rainbow Babies & Children’s Hospital and at Cleveland Clinic. In her free time, she keeps busy with art, music and whatever creative hobby she has most recently picked up.
+  - name: Katelyn Shen
+    role: Undergraduate Student
+    photo: assets/img/people/katelyn-shen.webp
+    bio: Katelyn is an undergraduate researcher at Case Western Reserve University (Class of 2028) pursuing a B.S. in Biochemistry along with Business Management. In the Taylor Lab, she studies protein phosphatase 2A (PP2A), focusing on the expression and purification of its B56 regulatory subunits.
 - status: alumni
   title: Postdoctoral Scholars
   members:
