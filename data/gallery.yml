@@ -1,11 +1,13 @@
 # Gallery photos. category must be one of the categories listed below.
 # Photos go in assets/img/gallery/ (about 1024px on the long side).
 categories:
+  - Mixed Reality
   - Lab Outings
   - Computer Building
   - Lab Photos
   - High School Students
 photos:
+  - {file: cwruxr-pge2-meta-quest.webp, caption: "Hands-on with molecules: CWRUXR lets the whole lab gather around a life-size protein and its small-molecule partner", category: Mixed Reality}
   - {file: taylorgpu3.webp, caption: "TaylorGPU3", category: Computer Building}
   - {file: gpu-alex-aya.webp, caption: "Alex + Aya - GPU Watercooling", category: Computer Building}
   - {file: gpu-alex.webp, caption: "Alex - GPU Watercooling", category: Computer Building}
